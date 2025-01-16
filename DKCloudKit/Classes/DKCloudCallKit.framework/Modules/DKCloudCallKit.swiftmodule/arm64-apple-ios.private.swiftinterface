@@ -1,0 +1,115 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DKCloudCallKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFAudio
+import AVFoundation
+@_exported import DKCloudCallKit
+import Foundation
+import Network
+import ObjectMapper
+import Starscream
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import linphonesw
+public enum InComeStatus {
+  case InComingCall
+  case Hangup
+  case Connect
+  case Error
+  public static func == (a: DKCloudCallKit.InComeStatus, b: DKCloudCallKit.InComeStatus) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum RegistState {
+  case Error
+  case Login
+  case Logout
+  case AgentLogout
+  case OtherLogin
+  public static func == (a: DKCloudCallKit.RegistState, b: DKCloudCallKit.RegistState) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum CallState {
+  case Error
+  case Connect
+  case End
+  case Ringing
+  case MakeCall
+  case AtxferCall
+  case AtxferAnswer
+  case AtxferHangup
+  case AtxferError
+  public static func == (a: DKCloudCallKit.CallState, b: DKCloudCallKit.CallState) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum PhoneType {
+  case Sip
+  case Phone
+  case Owned
+  public static func == (a: DKCloudCallKit.PhoneType, b: DKCloudCallKit.PhoneType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class DKCloudManager : DKCloudCallKit.DKWebSocketDelegate {
+  public class var manager: DKCloudCallKit.DKCloudManager {
+    get
+  }
+  public var showLog: Swift.Bool {
+    get
+    set
+  }
+  public func registerAccount(url: Swift.String, projectId: Swift.String, agentId: Swift.String, extensionId: Swift.String, password: Swift.String, token: Swift.String, agentStatus: Swift.Int, type: DKCloudCallKit.PhoneType)
+  public func refresh()
+  public func isLogin() -> Swift.Bool
+  public func getPhoneType() -> DKCloudCallKit.PhoneType?
+  public func getSocketStatus() -> Swift.Bool
+  public func getAgentState() -> Swift.Int
+  public func logOut()
+  public func callOut(num: Swift.String, userfield: Swift.String? = nil, tag: Swift.String? = nil, mobileTelx: Swift.String? = nil, fixedTelx: Swift.String? = nil, trunkNumberGroup: Swift.String? = nil, callStrategy: Swift.String? = nil)
+  public func answer()
+  public func hangUp()
+  public func handFree(open: Swift.Bool)
+  public func pause()
+  public func resume()
+  public func holdOnAction(hold: Swift.Bool)
+  public func muteAction(mute: Swift.Bool)
+  public func serviceLevel()
+  public func playdtmf(digit: Swift.String, agentId: Swift.String, agentType: Swift.Int = 0)
+  public func setAgentState(state: Swift.Int, reason: Swift.String? = nil)
+  public func blindfer(transferNumber: Swift.String, mode: Swift.Int = 0, ivrNodeId: Swift.String? = nil, ivrNodeType: Swift.String? = nil)
+  public func atxfer(atxferNumber: Swift.String, mode: Swift.Int = 0)
+  public func atxferHangUp()
+  public func meetAction(meetNumber: Swift.String, mode: Swift.Int = 0)
+  public func chanspy(point: Swift.Int = 0, monitorNumber: Swift.String, mode: Swift.Int)
+  public func dkcloudListener(registerBlock: ((DKCloudCallKit.RegistState, Swift.String?) -> Swift.Void)? = nil, onCallBlock: ((DKCloudCallKit.CallState, Swift.String?) -> Swift.Void)? = nil, inComeCallBlock: ((DKCloudCallKit.InComeStatus, Swift.String?) -> Swift.Void)? = nil, onSetAgentBlock: ((Swift.Bool, Swift.String?) -> Swift.Void)? = nil, onPlaydtmfBlock: ((Swift.Bool, Swift.String?) -> Swift.Void)? = nil)
+  public func websocketDidConnect()
+  public func websocketDidDisconnect(error: Swift.String, disconnectByUser: Swift.Bool)
+  public func websocketDidReceiveMessage(message: Swift.String)
+  @objc deinit
+}
+public protocol DKWebSocketDelegate {
+  func websocketDidConnect()
+  func websocketDidDisconnect(error: Swift.String, disconnectByUser: Swift.Bool)
+  func websocketDidReceiveMessage(message: Swift.String)
+}
+extension DKCloudCallKit.InComeStatus : Swift.Equatable {}
+extension DKCloudCallKit.InComeStatus : Swift.Hashable {}
+extension DKCloudCallKit.RegistState : Swift.Equatable {}
+extension DKCloudCallKit.RegistState : Swift.Hashable {}
+extension DKCloudCallKit.CallState : Swift.Equatable {}
+extension DKCloudCallKit.CallState : Swift.Hashable {}
+extension DKCloudCallKit.PhoneType : Swift.Equatable {}
+extension DKCloudCallKit.PhoneType : Swift.Hashable {}

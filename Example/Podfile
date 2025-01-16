@@ -1,0 +1,18 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+source 'https://gitlab.linphone.org/BC/public/podspec.git'
+
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'DKCloudKit_Example' do
+  pod 'DKCloudKit', :path => '../'
+
+  target 'DKCloudKit_Tests' do
+    inherit! :search_paths
+    pod 'Starscream'
+    pod 'linphone-sdk-novideo', '~> 5.2.114'
+    pod 'ObjectMapper'
+  end
+end

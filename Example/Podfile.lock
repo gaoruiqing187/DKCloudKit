@@ -1,0 +1,35 @@
+PODS:
+  - DKCloudKit (1.0.0):
+    - linphone-sdk-novideo (~> 5.2.114)
+    - ObjectMapper (~> 4.2.0)
+    - Starscream (~> 4.0.4)
+  - linphone-sdk-novideo (5.2.114)
+  - ObjectMapper (4.2.0)
+  - Starscream (4.0.4)
+
+DEPENDENCIES:
+  - DKCloudKit (from `../`)
+  - linphone-sdk-novideo (~> 5.2.114)
+  - ObjectMapper
+  - Starscream
+
+SPEC REPOS:
+  https://gitlab.linphone.org/BC/public/podspec.git:
+    - linphone-sdk-novideo
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - ObjectMapper
+    - Starscream
+
+EXTERNAL SOURCES:
+  DKCloudKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DKCloudKit: e112f19d0a2be4398f30c57dce227b9f0ca71325
+  linphone-sdk-novideo: b31e966f54fbf4f4f5d84c1683115a22e83611e4
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+
+PODFILE CHECKSUM: e44b02f80ec08f0ead62e20b9f65b23e648f47ab
+
+COCOAPODS: 1.15.2

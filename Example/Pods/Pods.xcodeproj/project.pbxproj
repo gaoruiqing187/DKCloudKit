@@ -1,0 +1,1589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		CD873CF4107F6C0DAFE91C262C4BDD14 /* DKCloudKit */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 83266BFBBEA319AFB28697B54B6D29FE /* Build configuration list for PBXAggregateTarget "DKCloudKit" */;
+			buildPhases = (
+			);
+			dependencies = (
+				5CC3B90F5E798D2258357BA1CA6EA436 /* PBXTargetDependency */,
+				E94893A50C2813E76C6EB10B40357349 /* PBXTargetDependency */,
+				313692A53BD972198CED7FE860E4F8EC /* PBXTargetDependency */,
+			);
+			name = DKCloudKit;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0A4A643776259A554E1504E1B0ABC639 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87548CCE446AE3EFE02654D5104F88B /* Foundation.framework */; };
+		14505545701A95FF46CF3EB5FC524085 /* FromJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A11546D480F7CE7E4743DC788858148 /* FromJSON.swift */; };
+		17702769F95E68FC5CA377EC80312F37 /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E27FC49BDF7C0FBAE97D92C4CBDEF5 /* Mappable.swift */; };
+		1C2B131E2DA4AC54AAEF566EDEABD6DA /* LinphoneWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888BDF85FB82EF005124C6B8C489465B /* LinphoneWrapper.swift */; };
+		1D390E4FF15C6E7E2100A80036C2C79F /* Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C9FA48C96903EA7184758A6940D8DC /* Transport.swift */; };
+		1DC7D724817A2E3F863A80710BBB2FD5 /* FoundationHTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69B22B23A3D1D60359D7D5B113AB4EA /* FoundationHTTPHandler.swift */; };
+		2028F735F233A9E59DBA1C2599EE4841 /* ObjectMapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28153C8F5DF09FFBDCC266555497727D /* ObjectMapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2272F91390F1AE826B5FBEFB52B1FDC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87548CCE446AE3EFE02654D5104F88B /* Foundation.framework */; };
+		227F4A1D445678CE7B5E75F5ED1FD8AE /* Pods-DKCloudKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 959D21A7F2CFF7E71E2011741FDAE63F /* Pods-DKCloudKit_Tests-dummy.m */; };
+		24D24A6935853C92D178E65E131A51CD /* WebSocketServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17878B7CF664CC0F3DCE92700B391CB /* WebSocketServer.swift */; };
+		266CBA78736A94DC2CDAF16B316727BE /* HexColorTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949DB0FC0D123C1D1F1F599BB26E235C /* HexColorTransform.swift */; };
+		32D321E9A46B6629411B85CA551D3687 /* IntegerOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC226BA46E27F32BC5B6FC4B3E33627B /* IntegerOperators.swift */; };
+		37070A379A017A1D9923B6AE18A0F61A /* DataTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9376F2B46FB6F8BD218B9D3A9B897A /* DataTransform.swift */; };
+		3FD39DFBD31ECF17F2BDC7D088E00BE9 /* HTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E72B0FAC0341C26D15A056DFE8B10C /* HTTPHandler.swift */; };
+		465A558FDCADB4D6343CB37A18BAEE58 /* Starscream-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9395077B9EC8FD7BC0B5F3E73B52EB /* Starscream-dummy.m */; };
+		50F1A1867280F5A5A605BC7B695A9679 /* Framer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B266DCEB8F85FFE479CB022E3F59972 /* Framer.swift */; };
+		531978629FF6DD0611C3BA0457C5E2D1 /* NativeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D023C88328FD6C723DF3E0E5FCC4A5 /* NativeEngine.swift */; };
+		583E145098A5D0CAC82432EEED06BEC6 /* ToJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFE619EDE068AB304ABA84F94647435 /* ToJSON.swift */; };
+		5B08D7FC136D7F7208EAE14077050D28 /* NSDecimalNumberTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1704D2AAE2DF63B895C918A46AB384 /* NSDecimalNumberTransform.swift */; };
+		5C816D14E42FFC8F3C2DD6EFCD483948 /* bctoolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E21A69C8EB882F4028FF8E60D7D6AE /* bctoolbox.framework */; };
+		66E2742A3B62B9415BA5B103926E138B /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60747B9645EB08373A62D30EEAEECEAA /* Data+Extensions.swift */; };
+		703E3204199AB92FC478376761DEF417 /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E70AD6FEAD59C0342C754614AFEFB78 /* Compression.swift */; };
+		804E7DB9BB8C5EBA1A3BFA24058FDF7D /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5E3CE96D1314D9AD01D608D28F03A /* Engine.swift */; };
+		86DC5C11E341DAEBA5758FD361B85551 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660EB8F40452292481AA398206D41873 /* Server.swift */; };
+		887C4659D158E13FE487472808C80DFC /* DictionaryTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DF621457F197DCC550AFE29209DD53 /* DictionaryTransform.swift */; };
+		90ACD3B2613449072D4F774F71404C38 /* linphone-sdk-novideo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8E40CCDEE41BF0D375CEE00F7C9999 /* linphone-sdk-novideo-dummy.m */; };
+		9140AC120270D541AA1619C3C82D2C15 /* EnumOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7171A74A6333F8EA7940E2033CB2E4 /* EnumOperators.swift */; };
+		944315F907D1A13EAC71C1A85EFD895A /* MapError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5AF93701326DE3ED12CF0A3692D919 /* MapError.swift */; };
+		965F45DCB82D2AB6A9E28428A36B3DB4 /* TransformOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655F74A47A0C2F902F97717DE3913B4A /* TransformOf.swift */; };
+		987FF7C72417BBB378BE05DD01C9460B /* FoundationTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257968335F56955F3338B51FA59CBE07 /* FoundationTransport.swift */; };
+		9B36AB67E6C8F8F09F3D8FFD8FBA23A9 /* TransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ADAB627636E51235FD3E1B268830CC /* TransformType.swift */; };
+		A21495478AE40F99E779615C1A30B581 /* Pods-DKCloudKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF75617F13E830FFD68795BDDA7A2CB0 /* Pods-DKCloudKit_Example-dummy.m */; };
+		A5348C9859AF24D2F945AA9106A481BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87548CCE446AE3EFE02654D5104F88B /* Foundation.framework */; };
+		A6749C4705FC7623E510C99A0CDC127B /* Pods-DKCloudKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED0096A60C8C2C23266DA7C8D404CB7A /* Pods-DKCloudKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A737F5413F6025A6414559C99622359F /* belle-sip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D222478424DFB154068810DF1251276 /* belle-sip.framework */; };
+		A7C76B861EEFEC5189EF5572D0C7C346 /* ISO8601DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678B8C93F95AC28E9A3767751054C775 /* ISO8601DateTransform.swift */; };
+		ABCC77D36A60151D4FD3652158665154 /* TCPTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8C3F23B30BF1D56869FFA0C28DE8EE /* TCPTransport.swift */; };
+		ADBA453E81D97705F29979948723F529 /* CodableTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198D4756362FC2192DF706048BA6749D /* CodableTransform.swift */; };
+		B067B0A7991985580E5CBB11ECF71DBF /* FoundationSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F63A835F67A2D24E4EA88DFA658385 /* FoundationSecurity.swift */; };
+		B2AE98661808E16016104DBDB8C0443C /* CustomDateFormatTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF03C6407FCE68A434DA12F9C1032E3 /* CustomDateFormatTransform.swift */; };
+		B329BB275F3AECE21BECD54FB83F0C7A /* ImmutableMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F139161BD996A33EBFD39D570109B3C4 /* ImmutableMappable.swift */; };
+		B83024E5C5B1B5D395E65A31768F2468 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A1B4E9719C294187B3387F4B279C82 /* WebSocket.swift */; };
+		BBD9E85D4B4F0AD55C6880215766DBEA /* ObjectMapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9976FA8EF25A9973BC3893C018AE6F24 /* ObjectMapper-dummy.m */; };
+		C1F795A82F6A2E29665EE663A95B45CF /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0015F7C15CBD6323E8410413CF55866B /* Operators.swift */; };
+		CB60CDAB11D492A4B55DE8DF067A0DFA /* TransformOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE5E37D1427F8D13FB24FEB358CCF43 /* TransformOperators.swift */; };
+		CEA96C6CAB431F55AF16BC6249358F6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87548CCE446AE3EFE02654D5104F88B /* Foundation.framework */; };
+		CFB9F0D6B7044F91E89947E7C4A52AA7 /* DateFormatterTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01D5C362A8655F2B574581F372DD7B0 /* DateFormatterTransform.swift */; };
+		D0C0E83172083C586077C5F463FFCA66 /* EnumTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627336CCA1FC75F0DDA3941B88DE9993 /* EnumTransform.swift */; };
+		D21207F4B8801B61A8BF6A8755ACD676 /* linphone-sdk-novideo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B2A1634AAC46E9C31484803D8849A2B /* linphone-sdk-novideo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2581ADB15566EED944C01AC6DE0A99F /* Pods-DKCloudKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A387DF26CDA10C6A6F7036357B5007 /* Pods-DKCloudKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3EE8C0442CF8C17E0092138275EBF28 /* WSCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C71265EB692FCE8616B0C75ED5570A3 /* WSCompression.swift */; };
+		D4560EAD605502264F0B060004ECC4CA /* linphone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FEFB079B58C4057A88B5AA36C0699CF /* linphone.framework */; };
+		D9767C6B6702777ABB0AB1D258CEDB6F /* URLTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6CDDD99B17DE51758BE0B1D263E4A9 /* URLTransform.swift */; };
+		D9A58369008A7112EEB3B913453143FD /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095EEEBBC4303004D9C1140DFBE697A6 /* Mapper.swift */; };
+		DD17C2AF076BCDFD32E147EFB4F8CF35 /* FoundationHTTPServerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E803F20060C5CF201862C3F7E6742A56 /* FoundationHTTPServerHandler.swift */; };
+		E6EB37C9ED029752593E47C17C563B1E /* StringHTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779E73F10FE7E3D0FA8B0072EAC700D9 /* StringHTTPHandler.swift */; };
+		E7ADEA239C8F3A4CE19D9242B6E285D6 /* FrameCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859E35F4FCA7D28BEDA4F4241E9B544A /* FrameCollector.swift */; };
+		E887489BCD712584D7C6CAF104E1628F /* DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FBC3726A2DC72B52CE4B785C1205D4 /* DateTransform.swift */; };
+		E953C7880B7F466A435151986BD48C8D /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D660448B07BF76214A4E6261128451F /* Map.swift */; };
+		F36917E905FB0B5D9C617969A4CD2FFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87548CCE446AE3EFE02654D5104F88B /* Foundation.framework */; };
+		F613A7897677A23F27D99FFD03756CCF /* Starscream-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3551D738EE2271061795C5FB7EF73D0E /* Starscream-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F87CEA6FA70A445291FFD7F08E726DCB /* Security.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BA60CF6B725E643DA0FC490FF5DC6D /* Security.swift */; };
+		F9751CEAFB8997831DEFB6F2F0D8D996 /* WSEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6985262BAE52832D30719B3A8D5400B /* WSEngine.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0528B04ADADB4573FA1034045DEA45F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 162E649F50FEC62B61BDD87D1BD422B4;
+			remoteInfo = ObjectMapper;
+		};
+		100DFEA808B91D0C2DA59F5DF605417F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B78EE4AF6AE03E79D88886319853FF7;
+			remoteInfo = Starscream;
+		};
+		10735A33614A60C6A15BF7C4D7276816 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B78EE4AF6AE03E79D88886319853FF7;
+			remoteInfo = Starscream;
+		};
+		44F6F52E189EA27D72C4453E5CCC6ED8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B78EE4AF6AE03E79D88886319853FF7;
+			remoteInfo = Starscream;
+		};
+		471FB1E311336A804054AB40B2E9C9DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 162E649F50FEC62B61BDD87D1BD422B4;
+			remoteInfo = ObjectMapper;
+		};
+		5C8DFF09D1F66FD63D4529D588641651 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 162E649F50FEC62B61BDD87D1BD422B4;
+			remoteInfo = ObjectMapper;
+		};
+		60D52EE91F85E38EDF88F2AF95B62C77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACFC23E6DA4D96378C86AA1C809A0C87;
+			remoteInfo = "Pods-DKCloudKit_Example";
+		};
+		77D0CB38EA598FDDADF9F1FF4DAC1995 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A59B2CBBECE489C0CC7F4D55811E3DE2;
+			remoteInfo = "linphone-sdk-novideo";
+		};
+		7B40A8E1A80E3C38871592EBE7DAFB1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A59B2CBBECE489C0CC7F4D55811E3DE2;
+			remoteInfo = "linphone-sdk-novideo";
+		};
+		D21993936EF1D0F5E699A3FD03B5C51C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD873CF4107F6C0DAFE91C262C4BDD14;
+			remoteInfo = DKCloudKit;
+		};
+		EC4C71019EA63077D66F6C727E580ED5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A59B2CBBECE489C0CC7F4D55811E3DE2;
+			remoteInfo = "linphone-sdk-novideo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00138DF83CC32FC5A49EA9F33CF11545 /* belle-sip.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = "belle-sip.xcframework"; path = "linphone-sdk-novideo/apple-darwin/XCFrameworks/belle-sip.xcframework"; sourceTree = "<group>"; };
+		0015F7C15CBD6323E8410413CF55866B /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/Operators.swift; sourceTree = "<group>"; };
+		0285D234B096B4611C2C87899B5B0951 /* Starscream-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-prefix.pch"; sourceTree = "<group>"; };
+		02A1B4E9719C294187B3387F4B279C82 /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Sources/Starscream/WebSocket.swift; sourceTree = "<group>"; };
+		0384D1DD69E52C3A380D5BBD04B54A9D /* linphone-sdk-novideo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "linphone-sdk-novideo-prefix.pch"; sourceTree = "<group>"; };
+		03AE77C524193EA9224096BFEBABE081 /* Starscream.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Starscream.modulemap; sourceTree = "<group>"; };
+		095EEEBBC4303004D9C1140DFBE697A6 /* Mapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mapper.swift; path = Sources/Mapper.swift; sourceTree = "<group>"; };
+		0B891A99449C8373C6381F19DDFA769C /* bctoolbox.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = bctoolbox.xcframework; path = "linphone-sdk-novideo/apple-darwin/XCFrameworks/bctoolbox.xcframework"; sourceTree = "<group>"; };
+		0E09B163D81E12D5E6CD648D64BF64BC /* Pods-DKCloudKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DKCloudKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0FB7EAD587EC592D87351FF56275C852 /* Pods-DKCloudKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DKCloudKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		0FEFB079B58C4057A88B5AA36C0699CF /* linphone.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = linphone.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/linphone.framework; sourceTree = DEVELOPER_DIR; };
+		109724C39443B4DB48E1D8CB2C21C262 /* ObjectMapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ObjectMapper.release.xcconfig; sourceTree = "<group>"; };
+		10F63A835F67A2D24E4EA88DFA658385 /* FoundationSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationSecurity.swift; path = Sources/Security/FoundationSecurity.swift; sourceTree = "<group>"; };
+		1271D164098406F55B7F5A7CF18F5F5D /* linphonetester.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = linphonetester.xcframework; path = "linphone-sdk-novideo/apple-darwin/XCFrameworks/linphonetester.xcframework"; sourceTree = "<group>"; };
+		15587B9EED53FB3014BBD0C89863CAB9 /* belcard.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = belcard.xcframework; path = "linphone-sdk-novideo/apple-darwin/XCFrameworks/belcard.xcframework"; sourceTree = "<group>"; };
+		1681886C89BDFABF3D9B1C072D0EF5F2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		18A387DF26CDA10C6A6F7036357B5007 /* Pods-DKCloudKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DKCloudKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		198D4756362FC2192DF706048BA6749D /* CodableTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodableTransform.swift; path = Sources/CodableTransform.swift; sourceTree = "<group>"; };
+		1B19F2219E1F2571E1367106E4619FFC /* Pods-DKCloudKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DKCloudKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1CCEB920DA9FFD9B4ABBA9C3D6E5DDE6 /* msamr.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = msamr.xcframework; path = "linphone-sdk-novideo/apple-darwin/XCFrameworks/msamr.xcframework"; sourceTree = "<group>"; };
+		1DF9B949FD36509FE488927222D392EA /* DKCloudKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DKCloudKit.release.xcconfig; sourceTree = "<group>"; };
+		1E5AF93701326DE3ED12CF0A3692D919 /* MapError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MapError.swift; path = Sources/MapError.swift; sourceTree = "<group>"; };
+		206050F4F3ACF2A33BF8BE0D226AA01C /* belr.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = belr.xcframework; path = "linphone-sdk-novideo/apple-darwin/XCFrameworks/belr.xcframework"; sourceTree = "<group>"; };
+		22D023C88328FD6C723DF3E0E5FCC4A5 /* NativeEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NativeEngine.swift; path = Sources/Engine/NativeEngine.swift; sourceTree = "<group>"; };
+		257968335F56955F3338B51FA59CBE07 /* FoundationTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationTransport.swift; path = Sources/Transport/FoundationTransport.swift; sourceTree = "<group>"; };
+		27C9FA48C96903EA7184758A6940D8DC /* Transport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transport.swift; path = Sources/Transport/Transport.swift; sourceTree = "<group>"; };
+		28153C8F5DF09FFBDCC266555497727D /* ObjectMapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjectMapper-umbrella.h"; sourceTree = "<group>"; };
+		2A11546D480F7CE7E4743DC788858148 /* FromJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FromJSON.swift; path = Sources/FromJSON.swift; sourceTree = "<group>"; };
+		2D222478424DFB154068810DF1251276 /* belle-sip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "belle-sip.framework"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/belle-sip.framework"; sourceTree = DEVELOPER_DIR; };
+		2D527ECE808BC25FE8EE943158C7DB13 /* Pods-DKCloudKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DKCloudKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		30ADAB627636E51235FD3E1B268830CC /* TransformType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformType.swift; path = Sources/TransformType.swift; sourceTree = "<group>"; };
+		33FA1B34DD28702758458CA73B714A80 /* Pods-DKCloudKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKCloudKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3551D738EE2271061795C5FB7EF73D0E /* Starscream-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-umbrella.h"; sourceTree = "<group>"; };
+		3B266DCEB8F85FFE479CB022E3F59972 /* Framer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Framer.swift; path = Sources/Framer/Framer.swift; sourceTree = "<group>"; };
+		3C7171A74A6333F8EA7940E2033CB2E4 /* EnumOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnumOperators.swift; path = Sources/EnumOperators.swift; sourceTree = "<group>"; };
+		41852AA37BABB1DDED534020B7475758 /* mswebrtc.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = mswebrtc.xcframework; path = "linphone-sdk-novideo/apple-darwin/XCFrameworks/mswebrtc.xcframework"; sourceTree = "<group>"; };
+		4779BC8693CADDE26F9138632E1F1E1F /* Pods-DKCloudKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DKCloudKit_Example.modulemap"; sourceTree = "<group>"; };
+		4A04D75324AD5FFCC9CF2A4DE9959AB9 /* Pods-DKCloudKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DKCloudKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4B2A1634AAC46E9C31484803D8849A2B /* linphone-sdk-novideo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "linphone-sdk-novideo-umbrella.h"; sourceTree = "<group>"; };
+		4EB39589F096430F98E48FCB2B0B8CB9 /* linphone-sdk-novideo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "linphone-sdk-novideo.debug.xcconfig"; sourceTree = "<group>"; };
+		5BC4B5E7990F544FE9415F27D61F37F0 /* lime.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = lime.xcframework; path = "linphone-sdk-novideo/apple-darwin/XCFrameworks/lime.xcframework"; sourceTree = "<group>"; };
+		5D311B65E28B01EF45F817D7B20ABE52 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5E70AD6FEAD59C0342C754614AFEFB78 /* Compression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compression.swift; path = Sources/Compression/Compression.swift; sourceTree = "<group>"; };
+		60747B9645EB08373A62D30EEAEECEAA /* Data+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Extensions.swift"; path = "Sources/DataBytes/Data+Extensions.swift"; sourceTree = "<group>"; };
+		627336CCA1FC75F0DDA3941B88DE9993 /* EnumTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnumTransform.swift; path = Sources/EnumTransform.swift; sourceTree = "<group>"; };
+		655F74A47A0C2F902F97717DE3913B4A /* TransformOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformOf.swift; path = Sources/TransformOf.swift; sourceTree = "<group>"; };
+		660EB8F40452292481AA398206D41873 /* Server.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Server.swift; path = Sources/Server/Server.swift; sourceTree = "<group>"; };
+		678B8C93F95AC28E9A3767751054C775 /* ISO8601DateTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISO8601DateTransform.swift; path = Sources/ISO8601DateTransform.swift; sourceTree = "<group>"; };
+		6C8C3F23B30BF1D56869FFA0C28DE8EE /* TCPTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TCPTransport.swift; path = Sources/Transport/TCPTransport.swift; sourceTree = "<group>"; };
+		6E8E40CCDEE41BF0D375CEE00F7C9999 /* linphone-sdk-novideo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "linphone-sdk-novideo-dummy.m"; sourceTree = "<group>"; };
+		72E27FC49BDF7C0FBAE97D92C4CBDEF5 /* Mappable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mappable.swift; path = Sources/Mappable.swift; sourceTree = "<group>"; };
+		73166136D42C39A3C180037BC51CE6F6 /* Starscream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.release.xcconfig; sourceTree = "<group>"; };
+		74BA60CF6B725E643DA0FC490FF5DC6D /* Security.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Security.swift; path = Sources/Security/Security.swift; sourceTree = "<group>"; };
+		779E73F10FE7E3D0FA8B0072EAC700D9 /* StringHTTPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringHTTPHandler.swift; path = Sources/Framer/StringHTTPHandler.swift; sourceTree = "<group>"; };
+		7B3E02B669A18AB7D91B8A7A50B38916 /* Starscream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.debug.xcconfig; sourceTree = "<group>"; };
+		7CF03C6407FCE68A434DA12F9C1032E3 /* CustomDateFormatTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomDateFormatTransform.swift; path = Sources/CustomDateFormatTransform.swift; sourceTree = "<group>"; };
+		7CFE619EDE068AB304ABA84F94647435 /* ToJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToJSON.swift; path = Sources/ToJSON.swift; sourceTree = "<group>"; };
+		7D3EC97E6C529BA126295DBEFC7EFC9A /* mssilk.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = mssilk.xcframework; path = "linphone-sdk-novideo/apple-darwin/XCFrameworks/mssilk.xcframework"; sourceTree = "<group>"; };
+		7D660448B07BF76214A4E6261128451F /* Map.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Map.swift; path = Sources/Map.swift; sourceTree = "<group>"; };
+		83646F70EAE4BB2CA978FBD75B6B802E /* ObjectMapper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ObjectMapper-Info.plist"; sourceTree = "<group>"; };
+		838B1DC49B474CDA4924BDC1D93627D5 /* linphone-sdk-novideo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "linphone-sdk-novideo"; path = linphonesw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83AA01408B63C0338C81DB1CBBE58E58 /* Pods-DKCloudKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKCloudKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		859E35F4FCA7D28BEDA4F4241E9B544A /* FrameCollector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameCollector.swift; path = Sources/Framer/FrameCollector.swift; sourceTree = "<group>"; };
+		86E72B0FAC0341C26D15A056DFE8B10C /* HTTPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHandler.swift; path = Sources/Framer/HTTPHandler.swift; sourceTree = "<group>"; };
+		888BDF85FB82EF005124C6B8C489465B /* LinphoneWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinphoneWrapper.swift; path = "linphone-sdk-novideo/apple-darwin/share/linphonesw/LinphoneWrapper.swift"; sourceTree = "<group>"; };
+		891B2270823847ED23F2ECFC28F935EC /* Starscream */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Starscream; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C3C55854EBBF130AC051F24A9733792 /* ZXing.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = ZXing.xcframework; path = "linphone-sdk-novideo/apple-darwin/XCFrameworks/ZXing.xcframework"; sourceTree = "<group>"; };
+		8C71265EB692FCE8616B0C75ED5570A3 /* WSCompression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WSCompression.swift; path = Sources/Compression/WSCompression.swift; sourceTree = "<group>"; };
+		911ACD35D272AB8CB9123305BDF70F04 /* ortp.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = ortp.xcframework; path = "linphone-sdk-novideo/apple-darwin/XCFrameworks/ortp.xcframework"; sourceTree = "<group>"; };
+		913001D052F19C326B87196F82B0DD9A /* Starscream-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Starscream-Info.plist"; sourceTree = "<group>"; };
+		92A9CF7C481E3D7B621997B13B0A95C3 /* mscodec2.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = mscodec2.xcframework; path = "linphone-sdk-novideo/apple-darwin/XCFrameworks/mscodec2.xcframework"; sourceTree = "<group>"; };
+		92C6861C0E62BBAAE9ABC2CAFC916B0A /* linphone-sdk-novideo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "linphone-sdk-novideo.modulemap"; sourceTree = "<group>"; };
+		92F675F85AE28CFC2F2682865F8B99D5 /* Pods-DKCloudKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKCloudKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9443CF5BFB5003FD6CA17E927C9E3B4F /* ObjectMapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjectMapper-prefix.pch"; sourceTree = "<group>"; };
+		949DB0FC0D123C1D1F1F599BB26E235C /* HexColorTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HexColorTransform.swift; path = Sources/HexColorTransform.swift; sourceTree = "<group>"; };
+		959D21A7F2CFF7E71E2011741FDAE63F /* Pods-DKCloudKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DKCloudKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		9976FA8EF25A9973BC3893C018AE6F24 /* ObjectMapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ObjectMapper-dummy.m"; sourceTree = "<group>"; };
+		9B9376F2B46FB6F8BD218B9D3A9B897A /* DataTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataTransform.swift; path = Sources/DataTransform.swift; sourceTree = "<group>"; };
+		9C5BC78AE9CA2525E4F0340226D4FB33 /* linphone-sdk-novideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "linphone-sdk-novideo.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DCC7E9DC48CCA8C498A2FD0BE0923EC /* ObjectMapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ObjectMapper.debug.xcconfig; sourceTree = "<group>"; };
+		A69B22B23A3D1D60359D7D5B113AB4EA /* FoundationHTTPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationHTTPHandler.swift; path = Sources/Framer/FoundationHTTPHandler.swift; sourceTree = "<group>"; };
+		A7DBD219CFA6C8FAA7431C014E197B5C /* Pods-DKCloudKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DKCloudKit_Example-Info.plist"; sourceTree = "<group>"; };
+		AA1704D2AAE2DF63B895C918A46AB384 /* NSDecimalNumberTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSDecimalNumberTransform.swift; path = Sources/NSDecimalNumberTransform.swift; sourceTree = "<group>"; };
+		AAAAD439F7B7C53D011977B486320C90 /* bctoolbox-ios.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = "bctoolbox-ios.xcframework"; path = "linphone-sdk-novideo/apple-darwin/XCFrameworks/bctoolbox-ios.xcframework"; sourceTree = "<group>"; };
+		AAE4C4D7A64368A38FCF289B528BFFAE /* mediastreamer2.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = mediastreamer2.xcframework; path = "linphone-sdk-novideo/apple-darwin/XCFrameworks/mediastreamer2.xcframework"; sourceTree = "<group>"; };
+		B5FBC3726A2DC72B52CE4B785C1205D4 /* DateTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateTransform.swift; path = Sources/DateTransform.swift; sourceTree = "<group>"; };
+		B8251D9B34530967CDD85E90E94325AB /* Pods-DKCloudKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DKCloudKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B87548CCE446AE3EFE02654D5104F88B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B9084FE779702931E8DF1D00A2D725FB /* ObjectMapper */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ObjectMapper; path = ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE5E37D1427F8D13FB24FEB358CCF43 /* TransformOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformOperators.swift; path = Sources/TransformOperators.swift; sourceTree = "<group>"; };
+		C6D03E6624D94D281515E79FE67322BD /* Pods-DKCloudKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DKCloudKit_Tests"; path = Pods_DKCloudKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6D2ACD6BC3559AB7981488B7D1C4F58 /* DKCloudKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DKCloudKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C9C3D3D0A27BA5CC18BE2A86040F9294 /* ObjectMapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ObjectMapper.modulemap; sourceTree = "<group>"; };
+		D031348DEDF20467F709C80DB1878D24 /* Pods-DKCloudKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DKCloudKit_Example"; path = Pods_DKCloudKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1636F36E9366085B79C2B9844A72E00 /* linphone.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = linphone.xcframework; path = "linphone-sdk-novideo/apple-darwin/XCFrameworks/linphone.xcframework"; sourceTree = "<group>"; };
+		D17878B7CF664CC0F3DCE92700B391CB /* WebSocketServer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocketServer.swift; path = Sources/Server/WebSocketServer.swift; sourceTree = "<group>"; };
+		D6985262BAE52832D30719B3A8D5400B /* WSEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WSEngine.swift; path = Sources/Engine/WSEngine.swift; sourceTree = "<group>"; };
+		D9C68D0404DE11BA0BEB95B499D93FF2 /* Pods-DKCloudKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DKCloudKit_Tests.modulemap"; sourceTree = "<group>"; };
+		DB4032B2A591A97079E2B58B3E4A6CE1 /* DKCloudCallKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DKCloudCallKit.framework; path = DKCloudKit/Classes/DKCloudCallKit.framework; sourceTree = "<group>"; };
+		DC226BA46E27F32BC5B6FC4B3E33627B /* IntegerOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntegerOperators.swift; path = Sources/IntegerOperators.swift; sourceTree = "<group>"; };
+		DE9395077B9EC8FD7BC0B5F3E73B52EB /* Starscream-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Starscream-dummy.m"; sourceTree = "<group>"; };
+		DFE5E3CE96D1314D9AD01D608D28F03A /* Engine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Engine.swift; path = Sources/Engine/Engine.swift; sourceTree = "<group>"; };
+		E01D5C362A8655F2B574581F372DD7B0 /* DateFormatterTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFormatterTransform.swift; path = Sources/DateFormatterTransform.swift; sourceTree = "<group>"; };
+		E4E9CDC4D6AF520C06F29B54766BF1E5 /* DKCloudKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DKCloudKit.debug.xcconfig; sourceTree = "<group>"; };
+		E803F20060C5CF201862C3F7E6742A56 /* FoundationHTTPServerHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationHTTPServerHandler.swift; path = Sources/Framer/FoundationHTTPServerHandler.swift; sourceTree = "<group>"; };
+		E9DF621457F197DCC550AFE29209DD53 /* DictionaryTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DictionaryTransform.swift; path = Sources/DictionaryTransform.swift; sourceTree = "<group>"; };
+		ED0096A60C8C2C23266DA7C8D404CB7A /* Pods-DKCloudKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DKCloudKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		EF75617F13E830FFD68795BDDA7A2CB0 /* Pods-DKCloudKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DKCloudKit_Example-dummy.m"; sourceTree = "<group>"; };
+		F02376993DC65174CEF78EA522F00187 /* linphone-sdk-novideo-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "linphone-sdk-novideo-xcframeworks.sh"; sourceTree = "<group>"; };
+		F139161BD996A33EBFD39D570109B3C4 /* ImmutableMappable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImmutableMappable.swift; path = Sources/ImmutableMappable.swift; sourceTree = "<group>"; };
+		F502294DC5B83D285A90CF2EE28024BE /* linphone-sdk-novideo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "linphone-sdk-novideo-Info.plist"; sourceTree = "<group>"; };
+		F5D0CFF61AADC9E50837631F3B901630 /* Pods-DKCloudKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKCloudKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F9C4BA94053C86003A3284A4DFB61E31 /* msopenh264.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = msopenh264.xcframework; path = "linphone-sdk-novideo/apple-darwin/XCFrameworks/msopenh264.xcframework"; sourceTree = "<group>"; };
+		F9E21A69C8EB882F4028FF8E60D7D6AE /* bctoolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = bctoolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/bctoolbox.framework; sourceTree = DEVELOPER_DIR; };
+		FCDBA9337C6DD6F15B21F684822ABDA9 /* Pods-DKCloudKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DKCloudKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FE6CDDD99B17DE51758BE0B1D263E4A9 /* URLTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLTransform.swift; path = Sources/URLTransform.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A4BCAAB8E53E08BC709FD3344567190 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C816D14E42FFC8F3C2DD6EFCD483948 /* bctoolbox.framework in Frameworks */,
+				A737F5413F6025A6414559C99622359F /* belle-sip.framework in Frameworks */,
+				A5348C9859AF24D2F945AA9106A481BD /* Foundation.framework in Frameworks */,
+				D4560EAD605502264F0B060004ECC4CA /* linphone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB640A83DF849868589E540EC674B72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2272F91390F1AE826B5FBEFB52B1FDC2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA9AC177E78B91A6092E3ED47D3B069 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36917E905FB0B5D9C617969A4CD2FFF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880DED3ABAEA2C19F0ED451CC13463F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA96C6CAB431F55AF16BC6249358F6D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE3BFE6953FCC330BE2EBA4EE3F4E450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4A643776259A554E1504E1B0ABC639 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02C8047291C0D526F195E2699A71E7A6 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F9E21A69C8EB882F4028FF8E60D7D6AE /* bctoolbox.framework */,
+				2D222478424DFB154068810DF1251276 /* belle-sip.framework */,
+				B87548CCE446AE3EFE02654D5104F88B /* Foundation.framework */,
+				0FEFB079B58C4057A88B5AA36C0699CF /* linphone.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		043ECB4870978539D285AB0293DC201B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4E9CDC4D6AF520C06F29B54766BF1E5 /* DKCloudKit.debug.xcconfig */,
+				1DF9B949FD36509FE488927222D392EA /* DKCloudKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DKCloudKit";
+			sourceTree = "<group>";
+		};
+		2228232CCBDB71A528E96DFAC1197C67 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1BDF244CE02D2B22ACBF6B3F4B53D64 /* DKCloudKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		24763EC4D23A1E3E57F3A391CBB14E16 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				03AE77C524193EA9224096BFEBABE081 /* Starscream.modulemap */,
+				DE9395077B9EC8FD7BC0B5F3E73B52EB /* Starscream-dummy.m */,
+				913001D052F19C326B87196F82B0DD9A /* Starscream-Info.plist */,
+				0285D234B096B4611C2C87899B5B0951 /* Starscream-prefix.pch */,
+				3551D738EE2271061795C5FB7EF73D0E /* Starscream-umbrella.h */,
+				7B3E02B669A18AB7D91B8A7A50B38916 /* Starscream.debug.xcconfig */,
+				73166136D42C39A3C180037BC51CE6F6 /* Starscream.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Starscream";
+			sourceTree = "<group>";
+		};
+		5476DCE1E2FF56DBC1114B55DFEEB312 /* Starscream */ = {
+			isa = PBXGroup;
+			children = (
+				5E70AD6FEAD59C0342C754614AFEFB78 /* Compression.swift */,
+				60747B9645EB08373A62D30EEAEECEAA /* Data+Extensions.swift */,
+				DFE5E3CE96D1314D9AD01D608D28F03A /* Engine.swift */,
+				A69B22B23A3D1D60359D7D5B113AB4EA /* FoundationHTTPHandler.swift */,
+				E803F20060C5CF201862C3F7E6742A56 /* FoundationHTTPServerHandler.swift */,
+				10F63A835F67A2D24E4EA88DFA658385 /* FoundationSecurity.swift */,
+				257968335F56955F3338B51FA59CBE07 /* FoundationTransport.swift */,
+				859E35F4FCA7D28BEDA4F4241E9B544A /* FrameCollector.swift */,
+				3B266DCEB8F85FFE479CB022E3F59972 /* Framer.swift */,
+				86E72B0FAC0341C26D15A056DFE8B10C /* HTTPHandler.swift */,
+				22D023C88328FD6C723DF3E0E5FCC4A5 /* NativeEngine.swift */,
+				74BA60CF6B725E643DA0FC490FF5DC6D /* Security.swift */,
+				660EB8F40452292481AA398206D41873 /* Server.swift */,
+				779E73F10FE7E3D0FA8B0072EAC700D9 /* StringHTTPHandler.swift */,
+				6C8C3F23B30BF1D56869FFA0C28DE8EE /* TCPTransport.swift */,
+				27C9FA48C96903EA7184758A6940D8DC /* Transport.swift */,
+				02A1B4E9719C294187B3387F4B279C82 /* WebSocket.swift */,
+				D17878B7CF664CC0F3DCE92700B391CB /* WebSocketServer.swift */,
+				8C71265EB692FCE8616B0C75ED5570A3 /* WSCompression.swift */,
+				D6985262BAE52832D30719B3A8D5400B /* WSEngine.swift */,
+				24763EC4D23A1E3E57F3A391CBB14E16 /* Support Files */,
+			);
+			name = Starscream;
+			path = Starscream;
+			sourceTree = "<group>";
+		};
+		6582032B8D3E6567B85672955322D27F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B891A99449C8373C6381F19DDFA769C /* bctoolbox.xcframework */,
+				AAAAD439F7B7C53D011977B486320C90 /* bctoolbox-ios.xcframework */,
+				15587B9EED53FB3014BBD0C89863CAB9 /* belcard.xcframework */,
+				00138DF83CC32FC5A49EA9F33CF11545 /* belle-sip.xcframework */,
+				206050F4F3ACF2A33BF8BE0D226AA01C /* belr.xcframework */,
+				5BC4B5E7990F544FE9415F27D61F37F0 /* lime.xcframework */,
+				D1636F36E9366085B79C2B9844A72E00 /* linphone.xcframework */,
+				1271D164098406F55B7F5A7CF18F5F5D /* linphonetester.xcframework */,
+				AAE4C4D7A64368A38FCF289B528BFFAE /* mediastreamer2.xcframework */,
+				1CCEB920DA9FFD9B4ABBA9C3D6E5DDE6 /* msamr.xcframework */,
+				92A9CF7C481E3D7B621997B13B0A95C3 /* mscodec2.xcframework */,
+				F9C4BA94053C86003A3284A4DFB61E31 /* msopenh264.xcframework */,
+				7D3EC97E6C529BA126295DBEFC7EFC9A /* mssilk.xcframework */,
+				41852AA37BABB1DDED534020B7475758 /* mswebrtc.xcframework */,
+				911ACD35D272AB8CB9123305BDF70F04 /* ortp.xcframework */,
+				8C3C55854EBBF130AC051F24A9733792 /* ZXing.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70C21D6D2B85BB82183AA607F60EF1E2 /* Pods-DKCloudKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4779BC8693CADDE26F9138632E1F1E1F /* Pods-DKCloudKit_Example.modulemap */,
+				0E09B163D81E12D5E6CD648D64BF64BC /* Pods-DKCloudKit_Example-acknowledgements.markdown */,
+				4A04D75324AD5FFCC9CF2A4DE9959AB9 /* Pods-DKCloudKit_Example-acknowledgements.plist */,
+				EF75617F13E830FFD68795BDDA7A2CB0 /* Pods-DKCloudKit_Example-dummy.m */,
+				1B19F2219E1F2571E1367106E4619FFC /* Pods-DKCloudKit_Example-frameworks.sh */,
+				A7DBD219CFA6C8FAA7431C014E197B5C /* Pods-DKCloudKit_Example-Info.plist */,
+				ED0096A60C8C2C23266DA7C8D404CB7A /* Pods-DKCloudKit_Example-umbrella.h */,
+				33FA1B34DD28702758458CA73B714A80 /* Pods-DKCloudKit_Example.debug.xcconfig */,
+				92F675F85AE28CFC2F2682865F8B99D5 /* Pods-DKCloudKit_Example.release.xcconfig */,
+			);
+			name = "Pods-DKCloudKit_Example";
+			path = "Target Support Files/Pods-DKCloudKit_Example";
+			sourceTree = "<group>";
+		};
+		789B42485A269A8B70F84572D19ADE85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB4032B2A591A97079E2B58B3E4A6CE1 /* DKCloudCallKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89328D0A576FD716AEDD276AFE384307 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				70C21D6D2B85BB82183AA607F60EF1E2 /* Pods-DKCloudKit_Example */,
+				E0D38F536A3982936B33110074F2A49B /* Pods-DKCloudKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8F7AEF9BE327B302178CBFFE373F4450 /* ObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				198D4756362FC2192DF706048BA6749D /* CodableTransform.swift */,
+				7CF03C6407FCE68A434DA12F9C1032E3 /* CustomDateFormatTransform.swift */,
+				9B9376F2B46FB6F8BD218B9D3A9B897A /* DataTransform.swift */,
+				E01D5C362A8655F2B574581F372DD7B0 /* DateFormatterTransform.swift */,
+				B5FBC3726A2DC72B52CE4B785C1205D4 /* DateTransform.swift */,
+				E9DF621457F197DCC550AFE29209DD53 /* DictionaryTransform.swift */,
+				3C7171A74A6333F8EA7940E2033CB2E4 /* EnumOperators.swift */,
+				627336CCA1FC75F0DDA3941B88DE9993 /* EnumTransform.swift */,
+				2A11546D480F7CE7E4743DC788858148 /* FromJSON.swift */,
+				949DB0FC0D123C1D1F1F599BB26E235C /* HexColorTransform.swift */,
+				F139161BD996A33EBFD39D570109B3C4 /* ImmutableMappable.swift */,
+				DC226BA46E27F32BC5B6FC4B3E33627B /* IntegerOperators.swift */,
+				678B8C93F95AC28E9A3767751054C775 /* ISO8601DateTransform.swift */,
+				7D660448B07BF76214A4E6261128451F /* Map.swift */,
+				1E5AF93701326DE3ED12CF0A3692D919 /* MapError.swift */,
+				72E27FC49BDF7C0FBAE97D92C4CBDEF5 /* Mappable.swift */,
+				095EEEBBC4303004D9C1140DFBE697A6 /* Mapper.swift */,
+				AA1704D2AAE2DF63B895C918A46AB384 /* NSDecimalNumberTransform.swift */,
+				0015F7C15CBD6323E8410413CF55866B /* Operators.swift */,
+				7CFE619EDE068AB304ABA84F94647435 /* ToJSON.swift */,
+				655F74A47A0C2F902F97717DE3913B4A /* TransformOf.swift */,
+				BAE5E37D1427F8D13FB24FEB358CCF43 /* TransformOperators.swift */,
+				30ADAB627636E51235FD3E1B268830CC /* TransformType.swift */,
+				FE6CDDD99B17DE51758BE0B1D263E4A9 /* URLTransform.swift */,
+				9393EF2B252314925EE6587CD30B6367 /* Support Files */,
+			);
+			name = ObjectMapper;
+			path = ObjectMapper;
+			sourceTree = "<group>";
+		};
+		902773E5D3DD99444834E8F44BF9D9B0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				92C6861C0E62BBAAE9ABC2CAFC916B0A /* linphone-sdk-novideo.modulemap */,
+				6E8E40CCDEE41BF0D375CEE00F7C9999 /* linphone-sdk-novideo-dummy.m */,
+				F502294DC5B83D285A90CF2EE28024BE /* linphone-sdk-novideo-Info.plist */,
+				0384D1DD69E52C3A380D5BBD04B54A9D /* linphone-sdk-novideo-prefix.pch */,
+				4B2A1634AAC46E9C31484803D8849A2B /* linphone-sdk-novideo-umbrella.h */,
+				F02376993DC65174CEF78EA522F00187 /* linphone-sdk-novideo-xcframeworks.sh */,
+				4EB39589F096430F98E48FCB2B0B8CB9 /* linphone-sdk-novideo.debug.xcconfig */,
+				9C5BC78AE9CA2525E4F0340226D4FB33 /* linphone-sdk-novideo.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/linphone-sdk-novideo";
+			sourceTree = "<group>";
+		};
+		9393EF2B252314925EE6587CD30B6367 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9C3D3D0A27BA5CC18BE2A86040F9294 /* ObjectMapper.modulemap */,
+				9976FA8EF25A9973BC3893C018AE6F24 /* ObjectMapper-dummy.m */,
+				83646F70EAE4BB2CA978FBD75B6B802E /* ObjectMapper-Info.plist */,
+				9443CF5BFB5003FD6CA17E927C9E3B4F /* ObjectMapper-prefix.pch */,
+				28153C8F5DF09FFBDCC266555497727D /* ObjectMapper-umbrella.h */,
+				9DCC7E9DC48CCA8C498A2FD0BE0923EC /* ObjectMapper.debug.xcconfig */,
+				109724C39443B4DB48E1D8CB2C21C262 /* ObjectMapper.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ObjectMapper";
+			sourceTree = "<group>";
+		};
+		B6E457B9B30EC1A4DB159814F2BE8B2D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C6D2ACD6BC3559AB7981488B7D1C4F58 /* DKCloudKit.podspec */,
+				1681886C89BDFABF3D9B1C072D0EF5F2 /* LICENSE */,
+				5D311B65E28B01EF45F817D7B20ABE52 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02C8047291C0D526F195E2699A71E7A6 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB8491F5F192DD398DCBE3FBC0352423 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9A90247F11829B3C8E274D7BE461E87 /* linphone-sdk-novideo */,
+				8F7AEF9BE327B302178CBFFE373F4450 /* ObjectMapper */,
+				5476DCE1E2FF56DBC1114B55DFEEB312 /* Starscream */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2228232CCBDB71A528E96DFAC1197C67 /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				BB8491F5F192DD398DCBE3FBC0352423 /* Pods */,
+				EF0B5744FBDCD5B898F0F4ABE8CA0A79 /* Products */,
+				89328D0A576FD716AEDD276AFE384307 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E0D38F536A3982936B33110074F2A49B /* Pods-DKCloudKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D9C68D0404DE11BA0BEB95B499D93FF2 /* Pods-DKCloudKit_Tests.modulemap */,
+				B8251D9B34530967CDD85E90E94325AB /* Pods-DKCloudKit_Tests-acknowledgements.markdown */,
+				FCDBA9337C6DD6F15B21F684822ABDA9 /* Pods-DKCloudKit_Tests-acknowledgements.plist */,
+				959D21A7F2CFF7E71E2011741FDAE63F /* Pods-DKCloudKit_Tests-dummy.m */,
+				2D527ECE808BC25FE8EE943158C7DB13 /* Pods-DKCloudKit_Tests-frameworks.sh */,
+				0FB7EAD587EC592D87351FF56275C852 /* Pods-DKCloudKit_Tests-Info.plist */,
+				18A387DF26CDA10C6A6F7036357B5007 /* Pods-DKCloudKit_Tests-umbrella.h */,
+				83AA01408B63C0338C81DB1CBBE58E58 /* Pods-DKCloudKit_Tests.debug.xcconfig */,
+				F5D0CFF61AADC9E50837631F3B901630 /* Pods-DKCloudKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-DKCloudKit_Tests";
+			path = "Target Support Files/Pods-DKCloudKit_Tests";
+			sourceTree = "<group>";
+		};
+		E9A90247F11829B3C8E274D7BE461E87 /* linphone-sdk-novideo */ = {
+			isa = PBXGroup;
+			children = (
+				888BDF85FB82EF005124C6B8C489465B /* LinphoneWrapper.swift */,
+				6582032B8D3E6567B85672955322D27F /* Frameworks */,
+				902773E5D3DD99444834E8F44BF9D9B0 /* Support Files */,
+			);
+			name = "linphone-sdk-novideo";
+			path = "linphone-sdk-novideo";
+			sourceTree = "<group>";
+		};
+		EF0B5744FBDCD5B898F0F4ABE8CA0A79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				838B1DC49B474CDA4924BDC1D93627D5 /* linphone-sdk-novideo */,
+				B9084FE779702931E8DF1D00A2D725FB /* ObjectMapper */,
+				D031348DEDF20467F709C80DB1878D24 /* Pods-DKCloudKit_Example */,
+				C6D03E6624D94D281515E79FE67322BD /* Pods-DKCloudKit_Tests */,
+				891B2270823847ED23F2ECFC28F935EC /* Starscream */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1BDF244CE02D2B22ACBF6B3F4B53D64 /* DKCloudKit */ = {
+			isa = PBXGroup;
+			children = (
+				789B42485A269A8B70F84572D19ADE85 /* Frameworks */,
+				B6E457B9B30EC1A4DB159814F2BE8B2D /* Pod */,
+				043ECB4870978539D285AB0293DC201B /* Support Files */,
+			);
+			name = DKCloudKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1D40518ED756E2BFC839221A4A6AC9A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2581ADB15566EED944C01AC6DE0A99F /* Pods-DKCloudKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7615935A93CE246C1DE7EEE6260587 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2028F735F233A9E59DBA1C2599EE4841 /* ObjectMapper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D438184C834BE2DE4C091DC95C40DA0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6749C4705FC7623E510C99A0CDC127B /* Pods-DKCloudKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92455660D99431890AE15E3E9122C8DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21207F4B8801B61A8BF6A8755ACD676 /* linphone-sdk-novideo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F2B04081C88C6656CA63C0F447E31A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F613A7897677A23F27D99FFD03756CCF /* Starscream-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		162E649F50FEC62B61BDD87D1BD422B4 /* ObjectMapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ADDA62E2B05DB34E962D65A5F06A9F6 /* Build configuration list for PBXNativeTarget "ObjectMapper" */;
+			buildPhases = (
+				5A7615935A93CE246C1DE7EEE6260587 /* Headers */,
+				5426A9D1FF4E718E6F8D9C73E905CF16 /* Sources */,
+				1DB640A83DF849868589E540EC674B72 /* Frameworks */,
+				024CFA62BC8E44E4C9F40B7D656A2751 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjectMapper;
+			productName = ObjectMapper;
+			productReference = B9084FE779702931E8DF1D00A2D725FB /* ObjectMapper */;
+			productType = "com.apple.product-type.framework";
+		};
+		51A612D875D9630C8E2A0311BBC54229 /* Pods-DKCloudKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2BC61261C81D83C8808561CC230DBCD /* Build configuration list for PBXNativeTarget "Pods-DKCloudKit_Tests" */;
+			buildPhases = (
+				1D40518ED756E2BFC839221A4A6AC9A5 /* Headers */,
+				08C54992452CE44FBDA5820ED78F0EEE /* Sources */,
+				880DED3ABAEA2C19F0ED451CC13463F0 /* Frameworks */,
+				4583EA1B6EDB3FFD81020553AA9F668B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6DB54CAA69D0A02C43D23AF99B6C5BE /* PBXTargetDependency */,
+				9737C890FAE062F5DAF18F2542D8D771 /* PBXTargetDependency */,
+				01A31853677544D2E95C0783E5C85678 /* PBXTargetDependency */,
+				65B3BFFF506CB36A0A1C387F32305A94 /* PBXTargetDependency */,
+			);
+			name = "Pods-DKCloudKit_Tests";
+			productName = Pods_DKCloudKit_Tests;
+			productReference = C6D03E6624D94D281515E79FE67322BD /* Pods-DKCloudKit_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDEBC5F42031534FAC7C2418E5C1EA92 /* Build configuration list for PBXNativeTarget "Starscream" */;
+			buildPhases = (
+				F8F2B04081C88C6656CA63C0F447E31A /* Headers */,
+				B506BC66F3D4D1C399F8F892EC76C030 /* Sources */,
+				DE3BFE6953FCC330BE2EBA4EE3F4E450 /* Frameworks */,
+				FE6D97AED9B387E8E982239AF6137490 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Starscream;
+			productName = Starscream;
+			productReference = 891B2270823847ED23F2ECFC28F935EC /* Starscream */;
+			productType = "com.apple.product-type.framework";
+		};
+		A59B2CBBECE489C0CC7F4D55811E3DE2 /* linphone-sdk-novideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA059B5207322A69A2D3F71264D76FF3 /* Build configuration list for PBXNativeTarget "linphone-sdk-novideo" */;
+			buildPhases = (
+				92455660D99431890AE15E3E9122C8DE /* Headers */,
+				5F0F01224FA4AA3D926C9A48743E0F08 /* [CP] Copy XCFrameworks */,
+				8F06CF43585535275319AD8319E7F7B7 /* Sources */,
+				0A4BCAAB8E53E08BC709FD3344567190 /* Frameworks */,
+				F460E40CD46B40E061434910BBCBAFBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "linphone-sdk-novideo";
+			productName = linphonesw;
+			productReference = 838B1DC49B474CDA4924BDC1D93627D5 /* linphone-sdk-novideo */;
+			productType = "com.apple.product-type.framework";
+		};
+		ACFC23E6DA4D96378C86AA1C809A0C87 /* Pods-DKCloudKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED090293FD063DB0AC7629DFDD189AA4 /* Build configuration list for PBXNativeTarget "Pods-DKCloudKit_Example" */;
+			buildPhases = (
+				6D438184C834BE2DE4C091DC95C40DA0 /* Headers */,
+				AC93275D058F9B9CD27522AA88E32E8A /* Sources */,
+				4CA9AC177E78B91A6092E3ED47D3B069 /* Frameworks */,
+				F946B92704EF3CC86BFF1D597FDC91BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FD3AE671493661E1E334ED166A8260E /* PBXTargetDependency */,
+				4AC056B093CD267C22EC7CDB6752E8EB /* PBXTargetDependency */,
+				0ED011C2C0BB308ADAF239EA282E1B02 /* PBXTargetDependency */,
+				E7570DF1F36DEE4D840EB3F6F857F1CB /* PBXTargetDependency */,
+			);
+			name = "Pods-DKCloudKit_Example";
+			productName = Pods_DKCloudKit_Example;
+			productReference = D031348DEDF20467F709C80DB1878D24 /* Pods-DKCloudKit_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = EF0B5744FBDCD5B898F0F4ABE8CA0A79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD873CF4107F6C0DAFE91C262C4BDD14 /* DKCloudKit */,
+				A59B2CBBECE489C0CC7F4D55811E3DE2 /* linphone-sdk-novideo */,
+				162E649F50FEC62B61BDD87D1BD422B4 /* ObjectMapper */,
+				ACFC23E6DA4D96378C86AA1C809A0C87 /* Pods-DKCloudKit_Example */,
+				51A612D875D9630C8E2A0311BBC54229 /* Pods-DKCloudKit_Tests */,
+				9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		024CFA62BC8E44E4C9F40B7D656A2751 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4583EA1B6EDB3FFD81020553AA9F668B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F460E40CD46B40E061434910BBCBAFBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F946B92704EF3CC86BFF1D597FDC91BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE6D97AED9B387E8E982239AF6137490 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F0F01224FA4AA3D926C9A48743E0F08 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/linphone-sdk-novideo/linphone-sdk-novideo-xcframeworks.sh",
+				"${PODS_ROOT}/linphone-sdk-novideo/linphone-sdk-novideo/apple-darwin/XCFrameworks/bctoolbox-ios.xcframework",
+				"${PODS_ROOT}/linphone-sdk-novideo/linphone-sdk-novideo/apple-darwin/XCFrameworks/bctoolbox.xcframework",
+				"${PODS_ROOT}/linphone-sdk-novideo/linphone-sdk-novideo/apple-darwin/XCFrameworks/belcard.xcframework",
+				"${PODS_ROOT}/linphone-sdk-novideo/linphone-sdk-novideo/apple-darwin/XCFrameworks/belle-sip.xcframework",
+				"${PODS_ROOT}/linphone-sdk-novideo/linphone-sdk-novideo/apple-darwin/XCFrameworks/belr.xcframework",
+				"${PODS_ROOT}/linphone-sdk-novideo/linphone-sdk-novideo/apple-darwin/XCFrameworks/lime.xcframework",
+				"${PODS_ROOT}/linphone-sdk-novideo/linphone-sdk-novideo/apple-darwin/XCFrameworks/linphone.xcframework",
+				"${PODS_ROOT}/linphone-sdk-novideo/linphone-sdk-novideo/apple-darwin/XCFrameworks/linphonetester.xcframework",
+				"${PODS_ROOT}/linphone-sdk-novideo/linphone-sdk-novideo/apple-darwin/XCFrameworks/mediastreamer2.xcframework",
+				"${PODS_ROOT}/linphone-sdk-novideo/linphone-sdk-novideo/apple-darwin/XCFrameworks/msamr.xcframework",
+				"${PODS_ROOT}/linphone-sdk-novideo/linphone-sdk-novideo/apple-darwin/XCFrameworks/mscodec2.xcframework",
+				"${PODS_ROOT}/linphone-sdk-novideo/linphone-sdk-novideo/apple-darwin/XCFrameworks/msopenh264.xcframework",
+				"${PODS_ROOT}/linphone-sdk-novideo/linphone-sdk-novideo/apple-darwin/XCFrameworks/mssilk.xcframework",
+				"${PODS_ROOT}/linphone-sdk-novideo/linphone-sdk-novideo/apple-darwin/XCFrameworks/mswebrtc.xcframework",
+				"${PODS_ROOT}/linphone-sdk-novideo/linphone-sdk-novideo/apple-darwin/XCFrameworks/ortp.xcframework",
+				"${PODS_ROOT}/linphone-sdk-novideo/linphone-sdk-novideo/apple-darwin/XCFrameworks/ZXing.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/linphone-sdk-novideo/bctoolbox-ios.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/linphone-sdk-novideo/bctoolbox.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/linphone-sdk-novideo/belcard.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/linphone-sdk-novideo/belle-sip.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/linphone-sdk-novideo/belr.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/linphone-sdk-novideo/lime.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/linphone-sdk-novideo/linphone.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/linphone-sdk-novideo/linphonetester.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/linphone-sdk-novideo/mediastreamer2.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/linphone-sdk-novideo/msamr.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/linphone-sdk-novideo/mscodec2.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/linphone-sdk-novideo/msopenh264.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/linphone-sdk-novideo/mssilk.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/linphone-sdk-novideo/mswebrtc.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/linphone-sdk-novideo/ortp.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/linphone-sdk-novideo/ZXing.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/linphone-sdk-novideo/linphone-sdk-novideo-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08C54992452CE44FBDA5820ED78F0EEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227F4A1D445678CE7B5E75F5ED1FD8AE /* Pods-DKCloudKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5426A9D1FF4E718E6F8D9C73E905CF16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBA453E81D97705F29979948723F529 /* CodableTransform.swift in Sources */,
+				B2AE98661808E16016104DBDB8C0443C /* CustomDateFormatTransform.swift in Sources */,
+				37070A379A017A1D9923B6AE18A0F61A /* DataTransform.swift in Sources */,
+				CFB9F0D6B7044F91E89947E7C4A52AA7 /* DateFormatterTransform.swift in Sources */,
+				E887489BCD712584D7C6CAF104E1628F /* DateTransform.swift in Sources */,
+				887C4659D158E13FE487472808C80DFC /* DictionaryTransform.swift in Sources */,
+				9140AC120270D541AA1619C3C82D2C15 /* EnumOperators.swift in Sources */,
+				D0C0E83172083C586077C5F463FFCA66 /* EnumTransform.swift in Sources */,
+				14505545701A95FF46CF3EB5FC524085 /* FromJSON.swift in Sources */,
+				266CBA78736A94DC2CDAF16B316727BE /* HexColorTransform.swift in Sources */,
+				B329BB275F3AECE21BECD54FB83F0C7A /* ImmutableMappable.swift in Sources */,
+				32D321E9A46B6629411B85CA551D3687 /* IntegerOperators.swift in Sources */,
+				A7C76B861EEFEC5189EF5572D0C7C346 /* ISO8601DateTransform.swift in Sources */,
+				E953C7880B7F466A435151986BD48C8D /* Map.swift in Sources */,
+				944315F907D1A13EAC71C1A85EFD895A /* MapError.swift in Sources */,
+				17702769F95E68FC5CA377EC80312F37 /* Mappable.swift in Sources */,
+				D9A58369008A7112EEB3B913453143FD /* Mapper.swift in Sources */,
+				5B08D7FC136D7F7208EAE14077050D28 /* NSDecimalNumberTransform.swift in Sources */,
+				BBD9E85D4B4F0AD55C6880215766DBEA /* ObjectMapper-dummy.m in Sources */,
+				C1F795A82F6A2E29665EE663A95B45CF /* Operators.swift in Sources */,
+				583E145098A5D0CAC82432EEED06BEC6 /* ToJSON.swift in Sources */,
+				965F45DCB82D2AB6A9E28428A36B3DB4 /* TransformOf.swift in Sources */,
+				CB60CDAB11D492A4B55DE8DF067A0DFA /* TransformOperators.swift in Sources */,
+				9B36AB67E6C8F8F09F3D8FFD8FBA23A9 /* TransformType.swift in Sources */,
+				D9767C6B6702777ABB0AB1D258CEDB6F /* URLTransform.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F06CF43585535275319AD8319E7F7B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90ACD3B2613449072D4F774F71404C38 /* linphone-sdk-novideo-dummy.m in Sources */,
+				1C2B131E2DA4AC54AAEF566EDEABD6DA /* LinphoneWrapper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC93275D058F9B9CD27522AA88E32E8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21495478AE40F99E779615C1A30B581 /* Pods-DKCloudKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B506BC66F3D4D1C399F8F892EC76C030 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703E3204199AB92FC478376761DEF417 /* Compression.swift in Sources */,
+				66E2742A3B62B9415BA5B103926E138B /* Data+Extensions.swift in Sources */,
+				804E7DB9BB8C5EBA1A3BFA24058FDF7D /* Engine.swift in Sources */,
+				1DC7D724817A2E3F863A80710BBB2FD5 /* FoundationHTTPHandler.swift in Sources */,
+				DD17C2AF076BCDFD32E147EFB4F8CF35 /* FoundationHTTPServerHandler.swift in Sources */,
+				B067B0A7991985580E5CBB11ECF71DBF /* FoundationSecurity.swift in Sources */,
+				987FF7C72417BBB378BE05DD01C9460B /* FoundationTransport.swift in Sources */,
+				E7ADEA239C8F3A4CE19D9242B6E285D6 /* FrameCollector.swift in Sources */,
+				50F1A1867280F5A5A605BC7B695A9679 /* Framer.swift in Sources */,
+				3FD39DFBD31ECF17F2BDC7D088E00BE9 /* HTTPHandler.swift in Sources */,
+				531978629FF6DD0611C3BA0457C5E2D1 /* NativeEngine.swift in Sources */,
+				F87CEA6FA70A445291FFD7F08E726DCB /* Security.swift in Sources */,
+				86DC5C11E341DAEBA5758FD361B85551 /* Server.swift in Sources */,
+				465A558FDCADB4D6343CB37A18BAEE58 /* Starscream-dummy.m in Sources */,
+				E6EB37C9ED029752593E47C17C563B1E /* StringHTTPHandler.swift in Sources */,
+				ABCC77D36A60151D4FD3652158665154 /* TCPTransport.swift in Sources */,
+				1D390E4FF15C6E7E2100A80036C2C79F /* Transport.swift in Sources */,
+				B83024E5C5B1B5D395E65A31768F2468 /* WebSocket.swift in Sources */,
+				24D24A6935853C92D178E65E131A51CD /* WebSocketServer.swift in Sources */,
+				D3EE8C0442CF8C17E0092138275EBF28 /* WSCompression.swift in Sources */,
+				F9751CEAFB8997831DEFB6F2F0D8D996 /* WSEngine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01A31853677544D2E95C0783E5C85678 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */;
+			targetProxy = 10735A33614A60C6A15BF7C4D7276816 /* PBXContainerItemProxy */;
+		};
+		0ED011C2C0BB308ADAF239EA282E1B02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */;
+			targetProxy = 44F6F52E189EA27D72C4453E5CCC6ED8 /* PBXContainerItemProxy */;
+		};
+		313692A53BD972198CED7FE860E4F8EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */;
+			targetProxy = 100DFEA808B91D0C2DA59F5DF605417F /* PBXContainerItemProxy */;
+		};
+		4AC056B093CD267C22EC7CDB6752E8EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ObjectMapper;
+			target = 162E649F50FEC62B61BDD87D1BD422B4 /* ObjectMapper */;
+			targetProxy = 5C8DFF09D1F66FD63D4529D588641651 /* PBXContainerItemProxy */;
+		};
+		5CC3B90F5E798D2258357BA1CA6EA436 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "linphone-sdk-novideo";
+			target = A59B2CBBECE489C0CC7F4D55811E3DE2 /* linphone-sdk-novideo */;
+			targetProxy = 7B40A8E1A80E3C38871592EBE7DAFB1F /* PBXContainerItemProxy */;
+		};
+		65B3BFFF506CB36A0A1C387F32305A94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "linphone-sdk-novideo";
+			target = A59B2CBBECE489C0CC7F4D55811E3DE2 /* linphone-sdk-novideo */;
+			targetProxy = 77D0CB38EA598FDDADF9F1FF4DAC1995 /* PBXContainerItemProxy */;
+		};
+		8FD3AE671493661E1E334ED166A8260E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DKCloudKit;
+			target = CD873CF4107F6C0DAFE91C262C4BDD14 /* DKCloudKit */;
+			targetProxy = D21993936EF1D0F5E699A3FD03B5C51C /* PBXContainerItemProxy */;
+		};
+		9737C890FAE062F5DAF18F2542D8D771 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DKCloudKit_Example";
+			target = ACFC23E6DA4D96378C86AA1C809A0C87 /* Pods-DKCloudKit_Example */;
+			targetProxy = 60D52EE91F85E38EDF88F2AF95B62C77 /* PBXContainerItemProxy */;
+		};
+		E7570DF1F36DEE4D840EB3F6F857F1CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "linphone-sdk-novideo";
+			target = A59B2CBBECE489C0CC7F4D55811E3DE2 /* linphone-sdk-novideo */;
+			targetProxy = EC4C71019EA63077D66F6C727E580ED5 /* PBXContainerItemProxy */;
+		};
+		E94893A50C2813E76C6EB10B40357349 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ObjectMapper;
+			target = 162E649F50FEC62B61BDD87D1BD422B4 /* ObjectMapper */;
+			targetProxy = 0528B04ADADB4573FA1034045DEA45F6 /* PBXContainerItemProxy */;
+		};
+		F6DB54CAA69D0A02C43D23AF99B6C5BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ObjectMapper;
+			target = 162E649F50FEC62B61BDD87D1BD422B4 /* ObjectMapper */;
+			targetProxy = 471FB1E311336A804054AB40B2E9C9DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DA575BF1296604B27CEB34A9A2219F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4E9CDC4D6AF520C06F29B54766BF1E5 /* DKCloudKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25B2EB3060FA9D7902BCD86F5BC9F9EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83AA01408B63C0338C81DB1CBBE58E58 /* Pods-DKCloudKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DKCloudKit_Tests/Pods-DKCloudKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DKCloudKit_Tests/Pods-DKCloudKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		324B82C8ACD98E718FC799F37EE1E318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 109724C39443B4DB48E1D8CB2C21C262 /* ObjectMapper.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ObjectMapper/ObjectMapper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ObjectMapper/ObjectMapper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ObjectMapper/ObjectMapper.modulemap";
+				PRODUCT_MODULE_NAME = ObjectMapper;
+				PRODUCT_NAME = ObjectMapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		58A0A47359D861C359390589A0231F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DCC7E9DC48CCA8C498A2FD0BE0923EC /* ObjectMapper.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ObjectMapper/ObjectMapper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ObjectMapper/ObjectMapper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ObjectMapper/ObjectMapper.modulemap";
+				PRODUCT_MODULE_NAME = ObjectMapper;
+				PRODUCT_NAME = ObjectMapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		713AF8209D1DD62D7C50E4C10F7C76B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DF9B949FD36509FE488927222D392EA /* DKCloudKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		725416B9C45A6F64D972145A02BBC646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33FA1B34DD28702758458CA73B714A80 /* Pods-DKCloudKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DKCloudKit_Example/Pods-DKCloudKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DKCloudKit_Example/Pods-DKCloudKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8A709324672B1BB5140AB74568029C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5D0CFF61AADC9E50837631F3B901630 /* Pods-DKCloudKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DKCloudKit_Tests/Pods-DKCloudKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DKCloudKit_Tests/Pods-DKCloudKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		96D211950EA1B286059B11C2CC36AB94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EB39589F096430F98E48FCB2B0B8CB9 /* linphone-sdk-novideo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/linphone-sdk-novideo/linphone-sdk-novideo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/linphone-sdk-novideo/linphone-sdk-novideo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/linphone-sdk-novideo/linphone-sdk-novideo.modulemap";
+				PRODUCT_MODULE_NAME = linphonesw;
+				PRODUCT_NAME = linphonesw;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DD821E487B880649A1866527C7922DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B3E02B669A18AB7D91B8A7A50B38916 /* Starscream.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Starscream-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				PRODUCT_MODULE_NAME = Starscream;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE1CD0B6F957A89F34AE42399468D7F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73166136D42C39A3C180037BC51CE6F6 /* Starscream.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Starscream-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				PRODUCT_MODULE_NAME = Starscream;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF968F0C1E796788812E3515DCF3BAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92F675F85AE28CFC2F2682865F8B99D5 /* Pods-DKCloudKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DKCloudKit_Example/Pods-DKCloudKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DKCloudKit_Example/Pods-DKCloudKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F09B65971E794DD0E29845402D046510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C5BC78AE9CA2525E4F0340226D4FB33 /* linphone-sdk-novideo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/linphone-sdk-novideo/linphone-sdk-novideo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/linphone-sdk-novideo/linphone-sdk-novideo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/linphone-sdk-novideo/linphone-sdk-novideo.modulemap";
+				PRODUCT_MODULE_NAME = linphonesw;
+				PRODUCT_NAME = linphonesw;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ADDA62E2B05DB34E962D65A5F06A9F6 /* Build configuration list for PBXNativeTarget "ObjectMapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58A0A47359D861C359390589A0231F4B /* Debug */,
+				324B82C8ACD98E718FC799F37EE1E318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83266BFBBEA319AFB28697B54B6D29FE /* Build configuration list for PBXAggregateTarget "DKCloudKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DA575BF1296604B27CEB34A9A2219F9 /* Debug */,
+				713AF8209D1DD62D7C50E4C10F7C76B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2BC61261C81D83C8808561CC230DBCD /* Build configuration list for PBXNativeTarget "Pods-DKCloudKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25B2EB3060FA9D7902BCD86F5BC9F9EE /* Debug */,
+				8A709324672B1BB5140AB74568029C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDEBC5F42031534FAC7C2418E5C1EA92 /* Build configuration list for PBXNativeTarget "Starscream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD821E487B880649A1866527C7922DDF /* Debug */,
+				DE1CD0B6F957A89F34AE42399468D7F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED090293FD063DB0AC7629DFDD189AA4 /* Build configuration list for PBXNativeTarget "Pods-DKCloudKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				725416B9C45A6F64D972145A02BBC646 /* Debug */,
+				EF968F0C1E796788812E3515DCF3BAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA059B5207322A69A2D3F71264D76FF3 /* Build configuration list for PBXNativeTarget "linphone-sdk-novideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96D211950EA1B286059B11C2CC36AB94 /* Debug */,
+				F09B65971E794DD0E29845402D046510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

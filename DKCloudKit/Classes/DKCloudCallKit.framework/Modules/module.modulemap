@@ -1,0 +1,11 @@
+framework module DKCloudCallKit {
+  umbrella header "DKCloudCallKit.h"
+  export *
+
+  module * { export * }
+}
+
+module DKCloudCallKit.Swift {
+  header "DKCloudCallKit-Swift.h"
+  requires objc
+}

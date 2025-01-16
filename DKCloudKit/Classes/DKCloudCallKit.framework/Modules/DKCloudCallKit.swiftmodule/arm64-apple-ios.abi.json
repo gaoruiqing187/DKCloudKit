@@ -1,0 +1,5441 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DKCloudCallKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "linphonesw",
+        "printedName": "linphonesw",
+        "declKind": "Import",
+        "moduleName": "DKCloudCallKit"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFAudio",
+        "printedName": "AVFAudio",
+        "declKind": "Import",
+        "moduleName": "DKCloudCallKit"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "DKCloudCallKit"
+      },
+      {
+        "kind": "Import",
+        "name": "ObjectMapper",
+        "printedName": "ObjectMapper",
+        "declKind": "Import",
+        "moduleName": "DKCloudCallKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InComeStatus",
+        "printedName": "InComeStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "InComingCall",
+            "printedName": "InComingCall",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DKCloudCallKit.InComeStatus.Type) -> DKCloudCallKit.InComeStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InComeStatus",
+                    "printedName": "DKCloudCallKit.InComeStatus",
+                    "usr": "s:14DKCloudCallKit12InComeStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DKCloudCallKit.InComeStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InComeStatus",
+                        "printedName": "DKCloudCallKit.InComeStatus",
+                        "usr": "s:14DKCloudCallKit12InComeStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14DKCloudCallKit12InComeStatusO0d6ComingB0yA2CmF",
+            "mangledName": "$s14DKCloudCallKit12InComeStatusO0d6ComingB0yA2CmF",
+            "moduleName": "DKCloudCallKit"
+          },
+          {
+            "kind": "Var",
+            "name": "Hangup",
+            "printedName": "Hangup",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DKCloudCallKit.InComeStatus.Type) -> DKCloudCallKit.InComeStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InComeStatus",
+                    "printedName": "DKCloudCallKit.InComeStatus",
+                    "usr": "s:14DKCloudCallKit12InComeStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DKCloudCallKit.InComeStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InComeStatus",
+                        "printedName": "DKCloudCallKit.InComeStatus",
+                        "usr": "s:14DKCloudCallKit12InComeStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14DKCloudCallKit12InComeStatusO6HangupyA2CmF",
+            "mangledName": "$s14DKCloudCallKit12InComeStatusO6HangupyA2CmF",
+            "moduleName": "DKCloudCallKit"
+          },
+          {
+            "kind": "Var",
+            "name": "Connect",
+            "printedName": "Connect",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DKCloudCallKit.InComeStatus.Type) -> DKCloudCallKit.InComeStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InComeStatus",
+                    "printedName": "DKCloudCallKit.InComeStatus",
+                    "usr": "s:14DKCloudCallKit12InComeStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DKCloudCallKit.InComeStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InComeStatus",
+                        "printedName": "DKCloudCallKit.InComeStatus",
+                        "usr": "s:14DKCloudCallKit12InComeStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14DKCloudCallKit12InComeStatusO7ConnectyA2CmF",
+            "mangledName": "$s14DKCloudCallKit12InComeStatusO7ConnectyA2CmF",
+            "moduleName": "DKCloudCallKit"
+          },
+          {
+            "kind": "Var",
+            "name": "Error",
+            "printedName": "Error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DKCloudCallKit.InComeStatus.Type) -> DKCloudCallKit.InComeStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InComeStatus",
+                    "printedName": "DKCloudCallKit.InComeStatus",
+                    "usr": "s:14DKCloudCallKit12InComeStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DKCloudCallKit.InComeStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InComeStatus",
+                        "printedName": "DKCloudCallKit.InComeStatus",
+                        "usr": "s:14DKCloudCallKit12InComeStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14DKCloudCallKit12InComeStatusO5ErroryA2CmF",
+            "mangledName": "$s14DKCloudCallKit12InComeStatusO5ErroryA2CmF",
+            "moduleName": "DKCloudCallKit"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InComeStatus",
+                "printedName": "DKCloudCallKit.InComeStatus",
+                "usr": "s:14DKCloudCallKit12InComeStatusO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InComeStatus",
+                "printedName": "DKCloudCallKit.InComeStatus",
+                "usr": "s:14DKCloudCallKit12InComeStatusO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DKCloudCallKit12InComeStatusO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s14DKCloudCallKit12InComeStatusO2eeoiySbAC_ACtFZ",
+            "moduleName": "DKCloudCallKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14DKCloudCallKit12InComeStatusO9hashValueSivp",
+            "mangledName": "$s14DKCloudCallKit12InComeStatusO9hashValueSivp",
+            "moduleName": "DKCloudCallKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14DKCloudCallKit12InComeStatusO9hashValueSivg",
+                "mangledName": "$s14DKCloudCallKit12InComeStatusO9hashValueSivg",
+                "moduleName": "DKCloudCallKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DKCloudCallKit12InComeStatusO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s14DKCloudCallKit12InComeStatusO4hash4intoys6HasherVz_tF",
+            "moduleName": "DKCloudCallKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14DKCloudCallKit12InComeStatusO",
+        "mangledName": "$s14DKCloudCallKit12InComeStatusO",
+        "moduleName": "DKCloudCallKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RegistState",
+        "printedName": "RegistState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "Error",
+            "printedName": "Error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DKCloudCallKit.RegistState.Type) -> DKCloudCallKit.RegistState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RegistState",
+                    "printedName": "DKCloudCallKit.RegistState",
+                    "usr": "s:14DKCloudCallKit11RegistStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DKCloudCallKit.RegistState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RegistState",
+                        "printedName": "DKCloudCallKit.RegistState",
+                        "usr": "s:14DKCloudCallKit11RegistStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14DKCloudCallKit11RegistStateO5ErroryA2CmF",
+            "mangledName": "$s14DKCloudCallKit11RegistStateO5ErroryA2CmF",
+            "moduleName": "DKCloudCallKit"
+          },
+          {
+            "kind": "Var",
+            "name": "Login",
+            "printedName": "Login",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DKCloudCallKit.RegistState.Type) -> DKCloudCallKit.RegistState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RegistState",
+                    "printedName": "DKCloudCallKit.RegistState",
+                    "usr": "s:14DKCloudCallKit11RegistStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DKCloudCallKit.RegistState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RegistState",
+                        "printedName": "DKCloudCallKit.RegistState",
+                        "usr": "s:14DKCloudCallKit11RegistStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14DKCloudCallKit11RegistStateO5LoginyA2CmF",
+            "mangledName": "$s14DKCloudCallKit11RegistStateO5LoginyA2CmF",
+            "moduleName": "DKCloudCallKit"
+          },
+          {
+            "kind": "Var",
+            "name": "Logout",
+            "printedName": "Logout",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DKCloudCallKit.RegistState.Type) -> DKCloudCallKit.RegistState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RegistState",
+                    "printedName": "DKCloudCallKit.RegistState",
+                    "usr": "s:14DKCloudCallKit11RegistStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DKCloudCallKit.RegistState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RegistState",
+                        "printedName": "DKCloudCallKit.RegistState",
+                        "usr": "s:14DKCloudCallKit11RegistStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14DKCloudCallKit11RegistStateO6LogoutyA2CmF",
+            "mangledName": "$s14DKCloudCallKit11RegistStateO6LogoutyA2CmF",
+            "moduleName": "DKCloudCallKit"
+          },
+          {
+            "kind": "Var",
+            "name": "AgentLogout",
+            "printedName": "AgentLogout",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DKCloudCallKit.RegistState.Type) -> DKCloudCallKit.RegistState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RegistState",
+                    "printedName": "DKCloudCallKit.RegistState",
+                    "usr": "s:14DKCloudCallKit11RegistStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DKCloudCallKit.RegistState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RegistState",
+                        "printedName": "DKCloudCallKit.RegistState",
+                        "usr": "s:14DKCloudCallKit11RegistStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14DKCloudCallKit11RegistStateO11AgentLogoutyA2CmF",
+            "mangledName": "$s14DKCloudCallKit11RegistStateO11AgentLogoutyA2CmF",
+            "moduleName": "DKCloudCallKit"
+          },
+          {
+            "kind": "Var",
+            "name": "OtherLogin",
+            "printedName": "OtherLogin",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DKCloudCallKit.RegistState.Type) -> DKCloudCallKit.RegistState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RegistState",
+                    "printedName": "DKCloudCallKit.RegistState",
+                    "usr": "s:14DKCloudCallKit11RegistStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DKCloudCallKit.RegistState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RegistState",
+                        "printedName": "DKCloudCallKit.RegistState",
+                        "usr": "s:14DKCloudCallKit11RegistStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14DKCloudCallKit11RegistStateO10OtherLoginyA2CmF",
+            "mangledName": "$s14DKCloudCallKit11RegistStateO10OtherLoginyA2CmF",
+            "moduleName": "DKCloudCallKit"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RegistState",
+                "printedName": "DKCloudCallKit.RegistState",
+                "usr": "s:14DKCloudCallKit11RegistStateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RegistState",
+                "printedName": "DKCloudCallKit.RegistState",
+                "usr": "s:14DKCloudCallKit11RegistStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DKCloudCallKit11RegistStateO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s14DKCloudCallKit11RegistStateO2eeoiySbAC_ACtFZ",
+            "moduleName": "DKCloudCallKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14DKCloudCallKit11RegistStateO9hashValueSivp",
+            "mangledName": "$s14DKCloudCallKit11RegistStateO9hashValueSivp",
+            "moduleName": "DKCloudCallKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14DKCloudCallKit11RegistStateO9hashValueSivg",
+                "mangledName": "$s14DKCloudCallKit11RegistStateO9hashValueSivg",
+                "moduleName": "DKCloudCallKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DKCloudCallKit11RegistStateO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s14DKCloudCallKit11RegistStateO4hash4intoys6HasherVz_tF",
+            "moduleName": "DKCloudCallKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14DKCloudCallKit11RegistStateO",
+        "mangledName": "$s14DKCloudCallKit11RegistStateO",
+        "moduleName": "DKCloudCallKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CallState",
+        "printedName": "CallState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "Error",
+            "printedName": "Error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DKCloudCallKit.CallState.Type) -> DKCloudCallKit.CallState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CallState",
+                    "printedName": "DKCloudCallKit.CallState",
+                    "usr": "s:14DKCloudCallKit0B5StateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DKCloudCallKit.CallState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CallState",
+                        "printedName": "DKCloudCallKit.CallState",
+                        "usr": "s:14DKCloudCallKit0B5StateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14DKCloudCallKit0B5StateO5ErroryA2CmF",
+            "mangledName": "$s14DKCloudCallKit0B5StateO5ErroryA2CmF",
+            "moduleName": "DKCloudCallKit"
+          },
+          {
+            "kind": "Var",
+            "name": "Connect",
+            "printedName": "Connect",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DKCloudCallKit.CallState.Type) -> DKCloudCallKit.CallState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CallState",
+                    "printedName": "DKCloudCallKit.CallState",
+                    "usr": "s:14DKCloudCallKit0B5StateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DKCloudCallKit.CallState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CallState",
+                        "printedName": "DKCloudCallKit.CallState",
+                        "usr": "s:14DKCloudCallKit0B5StateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14DKCloudCallKit0B5StateO7ConnectyA2CmF",
+            "mangledName": "$s14DKCloudCallKit0B5StateO7ConnectyA2CmF",
+            "moduleName": "DKCloudCallKit"
+          },
+          {
+            "kind": "Var",
+            "name": "End",
+            "printedName": "End",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DKCloudCallKit.CallState.Type) -> DKCloudCallKit.CallState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CallState",
+                    "printedName": "DKCloudCallKit.CallState",
+                    "usr": "s:14DKCloudCallKit0B5StateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DKCloudCallKit.CallState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CallState",
+                        "printedName": "DKCloudCallKit.CallState",
+                        "usr": "s:14DKCloudCallKit0B5StateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14DKCloudCallKit0B5StateO3EndyA2CmF",
+            "mangledName": "$s14DKCloudCallKit0B5StateO3EndyA2CmF",
+            "moduleName": "DKCloudCallKit"
+          },
+          {
+            "kind": "Var",
+            "name": "Ringing",
+            "printedName": "Ringing",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DKCloudCallKit.CallState.Type) -> DKCloudCallKit.CallState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CallState",
+                    "printedName": "DKCloudCallKit.CallState",
+                    "usr": "s:14DKCloudCallKit0B5StateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DKCloudCallKit.CallState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CallState",
+                        "printedName": "DKCloudCallKit.CallState",
+                        "usr": "s:14DKCloudCallKit0B5StateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14DKCloudCallKit0B5StateO7RingingyA2CmF",
+            "mangledName": "$s14DKCloudCallKit0B5StateO7RingingyA2CmF",
+            "moduleName": "DKCloudCallKit"
+          },
+          {
+            "kind": "Var",
+            "name": "MakeCall",
+            "printedName": "MakeCall",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DKCloudCallKit.CallState.Type) -> DKCloudCallKit.CallState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CallState",
+                    "printedName": "DKCloudCallKit.CallState",
+                    "usr": "s:14DKCloudCallKit0B5StateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DKCloudCallKit.CallState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CallState",
+                        "printedName": "DKCloudCallKit.CallState",
+                        "usr": "s:14DKCloudCallKit0B5StateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14DKCloudCallKit0B5StateO04MakeB0yA2CmF",
+            "mangledName": "$s14DKCloudCallKit0B5StateO04MakeB0yA2CmF",
+            "moduleName": "DKCloudCallKit"
+          },
+          {
+            "kind": "Var",
+            "name": "AtxferCall",
+            "printedName": "AtxferCall",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DKCloudCallKit.CallState.Type) -> DKCloudCallKit.CallState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CallState",
+                    "printedName": "DKCloudCallKit.CallState",
+                    "usr": "s:14DKCloudCallKit0B5StateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DKCloudCallKit.CallState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CallState",
+                        "printedName": "DKCloudCallKit.CallState",
+                        "usr": "s:14DKCloudCallKit0B5StateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14DKCloudCallKit0B5StateO06AtxferB0yA2CmF",
+            "mangledName": "$s14DKCloudCallKit0B5StateO06AtxferB0yA2CmF",
+            "moduleName": "DKCloudCallKit"
+          },
+          {
+            "kind": "Var",
+            "name": "AtxferAnswer",
+            "printedName": "AtxferAnswer",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DKCloudCallKit.CallState.Type) -> DKCloudCallKit.CallState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CallState",
+                    "printedName": "DKCloudCallKit.CallState",
+                    "usr": "s:14DKCloudCallKit0B5StateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DKCloudCallKit.CallState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CallState",
+                        "printedName": "DKCloudCallKit.CallState",
+                        "usr": "s:14DKCloudCallKit0B5StateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14DKCloudCallKit0B5StateO12AtxferAnsweryA2CmF",
+            "mangledName": "$s14DKCloudCallKit0B5StateO12AtxferAnsweryA2CmF",
+            "moduleName": "DKCloudCallKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "AtxferHangup",
+            "printedName": "AtxferHangup",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DKCloudCallKit.CallState.Type) -> DKCloudCallKit.CallState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CallState",
+                    "printedName": "DKCloudCallKit.CallState",
+                    "usr": "s:14DKCloudCallKit0B5StateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DKCloudCallKit.CallState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CallState",
+                        "printedName": "DKCloudCallKit.CallState",
+                        "usr": "s:14DKCloudCallKit0B5StateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14DKCloudCallKit0B5StateO12AtxferHangupyA2CmF",
+            "mangledName": "$s14DKCloudCallKit0B5StateO12AtxferHangupyA2CmF",
+            "moduleName": "DKCloudCallKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "AtxferError",
+            "printedName": "AtxferError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DKCloudCallKit.CallState.Type) -> DKCloudCallKit.CallState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CallState",
+                    "printedName": "DKCloudCallKit.CallState",
+                    "usr": "s:14DKCloudCallKit0B5StateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DKCloudCallKit.CallState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CallState",
+                        "printedName": "DKCloudCallKit.CallState",
+                        "usr": "s:14DKCloudCallKit0B5StateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14DKCloudCallKit0B5StateO11AtxferErroryA2CmF",
+            "mangledName": "$s14DKCloudCallKit0B5StateO11AtxferErroryA2CmF",
+            "moduleName": "DKCloudCallKit"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CallState",
+                "printedName": "DKCloudCallKit.CallState",
+                "usr": "s:14DKCloudCallKit0B5StateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CallState",
+                "printedName": "DKCloudCallKit.CallState",
+                "usr": "s:14DKCloudCallKit0B5StateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DKCloudCallKit0B5StateO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s14DKCloudCallKit0B5StateO2eeoiySbAC_ACtFZ",
+            "moduleName": "DKCloudCallKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14DKCloudCallKit0B5StateO9hashValueSivp",
+            "mangledName": "$s14DKCloudCallKit0B5StateO9hashValueSivp",
+            "moduleName": "DKCloudCallKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14DKCloudCallKit0B5StateO9hashValueSivg",
+                "mangledName": "$s14DKCloudCallKit0B5StateO9hashValueSivg",
+                "moduleName": "DKCloudCallKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DKCloudCallKit0B5StateO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s14DKCloudCallKit0B5StateO4hash4intoys6HasherVz_tF",
+            "moduleName": "DKCloudCallKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14DKCloudCallKit0B5StateO",
+        "mangledName": "$s14DKCloudCallKit0B5StateO",
+        "moduleName": "DKCloudCallKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PhoneType",
+        "printedName": "PhoneType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "Sip",
+            "printedName": "Sip",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DKCloudCallKit.PhoneType.Type) -> DKCloudCallKit.PhoneType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PhoneType",
+                    "printedName": "DKCloudCallKit.PhoneType",
+                    "usr": "s:14DKCloudCallKit9PhoneTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DKCloudCallKit.PhoneType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PhoneType",
+                        "printedName": "DKCloudCallKit.PhoneType",
+                        "usr": "s:14DKCloudCallKit9PhoneTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14DKCloudCallKit9PhoneTypeO3SipyA2CmF",
+            "mangledName": "$s14DKCloudCallKit9PhoneTypeO3SipyA2CmF",
+            "moduleName": "DKCloudCallKit"
+          },
+          {
+            "kind": "Var",
+            "name": "Phone",
+            "printedName": "Phone",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DKCloudCallKit.PhoneType.Type) -> DKCloudCallKit.PhoneType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PhoneType",
+                    "printedName": "DKCloudCallKit.PhoneType",
+                    "usr": "s:14DKCloudCallKit9PhoneTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DKCloudCallKit.PhoneType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PhoneType",
+                        "printedName": "DKCloudCallKit.PhoneType",
+                        "usr": "s:14DKCloudCallKit9PhoneTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14DKCloudCallKit9PhoneTypeO0D0yA2CmF",
+            "mangledName": "$s14DKCloudCallKit9PhoneTypeO0D0yA2CmF",
+            "moduleName": "DKCloudCallKit"
+          },
+          {
+            "kind": "Var",
+            "name": "Owned",
+            "printedName": "Owned",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DKCloudCallKit.PhoneType.Type) -> DKCloudCallKit.PhoneType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PhoneType",
+                    "printedName": "DKCloudCallKit.PhoneType",
+                    "usr": "s:14DKCloudCallKit9PhoneTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DKCloudCallKit.PhoneType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PhoneType",
+                        "printedName": "DKCloudCallKit.PhoneType",
+                        "usr": "s:14DKCloudCallKit9PhoneTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14DKCloudCallKit9PhoneTypeO5OwnedyA2CmF",
+            "mangledName": "$s14DKCloudCallKit9PhoneTypeO5OwnedyA2CmF",
+            "moduleName": "DKCloudCallKit"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PhoneType",
+                "printedName": "DKCloudCallKit.PhoneType",
+                "usr": "s:14DKCloudCallKit9PhoneTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PhoneType",
+                "printedName": "DKCloudCallKit.PhoneType",
+                "usr": "s:14DKCloudCallKit9PhoneTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DKCloudCallKit9PhoneTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s14DKCloudCallKit9PhoneTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "DKCloudCallKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14DKCloudCallKit9PhoneTypeO9hashValueSivp",
+            "mangledName": "$s14DKCloudCallKit9PhoneTypeO9hashValueSivp",
+            "moduleName": "DKCloudCallKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14DKCloudCallKit9PhoneTypeO9hashValueSivg",
+                "mangledName": "$s14DKCloudCallKit9PhoneTypeO9hashValueSivg",
+                "moduleName": "DKCloudCallKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DKCloudCallKit9PhoneTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s14DKCloudCallKit9PhoneTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "DKCloudCallKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14DKCloudCallKit9PhoneTypeO",
+        "mangledName": "$s14DKCloudCallKit9PhoneTypeO",
+        "moduleName": "DKCloudCallKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DKCloudManager",
+        "printedName": "DKCloudManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "manager",
+            "printedName": "manager",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DKCloudManager",
+                "printedName": "DKCloudCallKit.DKCloudManager",
+                "usr": "s:14DKCloudCallKit0A7ManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14DKCloudCallKit0A7ManagerC7managerACvpZ",
+            "mangledName": "$s14DKCloudCallKit0A7ManagerC7managerACvpZ",
+            "moduleName": "DKCloudCallKit",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DKCloudManager",
+                    "printedName": "DKCloudCallKit.DKCloudManager",
+                    "usr": "s:14DKCloudCallKit0A7ManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14DKCloudCallKit0A7ManagerC7managerACvgZ",
+                "mangledName": "$s14DKCloudCallKit0A7ManagerC7managerACvgZ",
+                "moduleName": "DKCloudCallKit",
+                "static": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "showLog",
+            "printedName": "showLog",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14DKCloudCallKit0A7ManagerC7showLogSbvp",
+            "mangledName": "$s14DKCloudCallKit0A7ManagerC7showLogSbvp",
+            "moduleName": "DKCloudCallKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14DKCloudCallKit0A7ManagerC7showLogSbvg",
+                "mangledName": "$s14DKCloudCallKit0A7ManagerC7showLogSbvg",
+                "moduleName": "DKCloudCallKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14DKCloudCallKit0A7ManagerC7showLogSbvs",
+                "mangledName": "$s14DKCloudCallKit0A7ManagerC7showLogSbvs",
+                "moduleName": "DKCloudCallKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14DKCloudCallKit0A7ManagerC7showLogSbvM",
+                "mangledName": "$s14DKCloudCallKit0A7ManagerC7showLogSbvM",
+                "moduleName": "DKCloudCallKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "registerAccount",
+            "printedName": "registerAccount(url:projectId:agentId:extensionId:password:token:agentStatus:type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PhoneType",
+                "printedName": "DKCloudCallKit.PhoneType",
+                "usr": "s:14DKCloudCallKit9PhoneTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DKCloudCallKit0A7ManagerC15registerAccount3url9projectId05agentI009extensionI08password5token0J6Status4typeySS_S5SSiAA9PhoneTypeOtF",
+            "mangledName": "$s14DKCloudCallKit0A7ManagerC15registerAccount3url9projectId05agentI009extensionI08password5token0J6Status4typeySS_S5SSiAA9PhoneTypeOtF",
+            "moduleName": "DKCloudCallKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "refresh",
+            "printedName": "refresh()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DKCloudCallKit0A7ManagerC7refreshyyF",
+            "mangledName": "$s14DKCloudCallKit0A7ManagerC7refreshyyF",
+            "moduleName": "DKCloudCallKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isLogin",
+            "printedName": "isLogin()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DKCloudCallKit0A7ManagerC7isLoginSbyF",
+            "mangledName": "$s14DKCloudCallKit0A7ManagerC7isLoginSbyF",
+            "moduleName": "DKCloudCallKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPhoneType",
+            "printedName": "getPhoneType()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DKCloudCallKit.PhoneType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PhoneType",
+                    "printedName": "DKCloudCallKit.PhoneType",
+                    "usr": "s:14DKCloudCallKit9PhoneTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DKCloudCallKit0A7ManagerC12getPhoneTypeAA0fG0OSgyF",
+            "mangledName": "$s14DKCloudCallKit0A7ManagerC12getPhoneTypeAA0fG0OSgyF",
+            "moduleName": "DKCloudCallKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getSocketStatus",
+            "printedName": "getSocketStatus()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DKCloudCallKit0A7ManagerC15getSocketStatusSbyF",
+            "mangledName": "$s14DKCloudCallKit0A7ManagerC15getSocketStatusSbyF",
+            "moduleName": "DKCloudCallKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAgentState",
+            "printedName": "getAgentState()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DKCloudCallKit0A7ManagerC13getAgentStateSiyF",
+            "mangledName": "$s14DKCloudCallKit0A7ManagerC13getAgentStateSiyF",
+            "moduleName": "DKCloudCallKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logOut",
+            "printedName": "logOut()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DKCloudCallKit0A7ManagerC6logOutyyF",
+            "mangledName": "$s14DKCloudCallKit0A7ManagerC6logOutyyF",
+            "moduleName": "DKCloudCallKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "callOut",
+            "printedName": "callOut(num:userfield:tag:mobileTelx:fixedTelx:trunkNumberGroup:callStrategy:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DKCloudCallKit0A7ManagerC7callOut3num9userfield3tag10mobileTelx05fixedK016trunkNumberGroup0E8StrategyySS_SSSgA5LtF",
+            "mangledName": "$s14DKCloudCallKit0A7ManagerC7callOut3num9userfield3tag10mobileTelx05fixedK016trunkNumberGroup0E8StrategyySS_SSSgA5LtF",
+            "moduleName": "DKCloudCallKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "answer",
+            "printedName": "answer()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DKCloudCallKit0A7ManagerC6answeryyF",
+            "mangledName": "$s14DKCloudCallKit0A7ManagerC6answeryyF",
+            "moduleName": "DKCloudCallKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hangUp",
+            "printedName": "hangUp()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DKCloudCallKit0A7ManagerC6hangUpyyF",
+            "mangledName": "$s14DKCloudCallKit0A7ManagerC6hangUpyyF",
+            "moduleName": "DKCloudCallKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handFree",
+            "printedName": "handFree(open:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DKCloudCallKit0A7ManagerC8handFree4openySb_tF",
+            "mangledName": "$s14DKCloudCallKit0A7ManagerC8handFree4openySb_tF",
+            "moduleName": "DKCloudCallKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pause",
+            "printedName": "pause()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DKCloudCallKit0A7ManagerC5pauseyyF",
+            "mangledName": "$s14DKCloudCallKit0A7ManagerC5pauseyyF",
+            "moduleName": "DKCloudCallKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resume",
+            "printedName": "resume()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DKCloudCallKit0A7ManagerC6resumeyyF",
+            "mangledName": "$s14DKCloudCallKit0A7ManagerC6resumeyyF",
+            "moduleName": "DKCloudCallKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "holdOnAction",
+            "printedName": "holdOnAction(hold:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DKCloudCallKit0A7ManagerC12holdOnAction0E0ySb_tF",
+            "mangledName": "$s14DKCloudCallKit0A7ManagerC12holdOnAction0E0ySb_tF",
+            "moduleName": "DKCloudCallKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "muteAction",
+            "printedName": "muteAction(mute:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DKCloudCallKit0A7ManagerC10muteAction0E0ySb_tF",
+            "mangledName": "$s14DKCloudCallKit0A7ManagerC10muteAction0E0ySb_tF",
+            "moduleName": "DKCloudCallKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "serviceLevel",
+            "printedName": "serviceLevel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DKCloudCallKit0A7ManagerC12serviceLevelyyF",
+            "mangledName": "$s14DKCloudCallKit0A7ManagerC12serviceLevelyyF",
+            "moduleName": "DKCloudCallKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "playdtmf",
+            "printedName": "playdtmf(digit:agentId:agentType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DKCloudCallKit0A7ManagerC8playdtmf5digit7agentId0G4TypeySS_SSSitF",
+            "mangledName": "$s14DKCloudCallKit0A7ManagerC8playdtmf5digit7agentId0G4TypeySS_SSSitF",
+            "moduleName": "DKCloudCallKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAgentState",
+            "printedName": "setAgentState(state:reason:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DKCloudCallKit0A7ManagerC13setAgentState5state6reasonySi_SSSgtF",
+            "mangledName": "$s14DKCloudCallKit0A7ManagerC13setAgentState5state6reasonySi_SSSgtF",
+            "moduleName": "DKCloudCallKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "blindfer",
+            "printedName": "blindfer(transferNumber:mode:ivrNodeId:ivrNodeType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DKCloudCallKit0A7ManagerC8blindfer14transferNumber4mode9ivrNodeId0iJ4TypeySS_SiSSSgAItF",
+            "mangledName": "$s14DKCloudCallKit0A7ManagerC8blindfer14transferNumber4mode9ivrNodeId0iJ4TypeySS_SiSSSgAItF",
+            "moduleName": "DKCloudCallKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "atxfer",
+            "printedName": "atxfer(atxferNumber:mode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DKCloudCallKit0A7ManagerC6atxfer0E6Number4modeySS_SitF",
+            "mangledName": "$s14DKCloudCallKit0A7ManagerC6atxfer0E6Number4modeySS_SitF",
+            "moduleName": "DKCloudCallKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "atxferHangUp",
+            "printedName": "atxferHangUp()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DKCloudCallKit0A7ManagerC12atxferHangUpyyF",
+            "mangledName": "$s14DKCloudCallKit0A7ManagerC12atxferHangUpyyF",
+            "moduleName": "DKCloudCallKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "meetAction",
+            "printedName": "meetAction(meetNumber:mode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DKCloudCallKit0A7ManagerC10meetAction0E6Number4modeySS_SitF",
+            "mangledName": "$s14DKCloudCallKit0A7ManagerC10meetAction0E6Number4modeySS_SitF",
+            "moduleName": "DKCloudCallKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "chanspy",
+            "printedName": "chanspy(point:monitorNumber:mode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DKCloudCallKit0A7ManagerC7chanspy5point13monitorNumber4modeySi_SSSitF",
+            "mangledName": "$s14DKCloudCallKit0A7ManagerC7chanspy5point13monitorNumber4modeySi_SSSitF",
+            "moduleName": "DKCloudCallKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dkcloudListener",
+            "printedName": "dkcloudListener(registerBlock:onCallBlock:inComeCallBlock:onSetAgentBlock:onPlaydtmfBlock:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((DKCloudCallKit.RegistState, Swift.String?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DKCloudCallKit.RegistState, Swift.String?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(DKCloudCallKit.RegistState, Swift.String?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RegistState",
+                            "printedName": "DKCloudCallKit.RegistState",
+                            "usr": "s:14DKCloudCallKit11RegistStateO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((DKCloudCallKit.CallState, Swift.String?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DKCloudCallKit.CallState, Swift.String?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(DKCloudCallKit.CallState, Swift.String?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CallState",
+                            "printedName": "DKCloudCallKit.CallState",
+                            "usr": "s:14DKCloudCallKit0B5StateO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((DKCloudCallKit.InComeStatus, Swift.String?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DKCloudCallKit.InComeStatus, Swift.String?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(DKCloudCallKit.InComeStatus, Swift.String?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "InComeStatus",
+                            "printedName": "DKCloudCallKit.InComeStatus",
+                            "usr": "s:14DKCloudCallKit12InComeStatusO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool, Swift.String?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool, Swift.String?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Bool, Swift.String?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool, Swift.String?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool, Swift.String?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Bool, Swift.String?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DKCloudCallKit0A7ManagerC15dkcloudListener13registerBlock02onbH006inComebH00i8SetAgentH00i8PlaydtmfH0yyAA11RegistStateO_SSSgtcSg_yAA0bP0O_ALtcSgyAA02InK6StatusO_ALtcSgySb_ALtcSgATtF",
+            "mangledName": "$s14DKCloudCallKit0A7ManagerC15dkcloudListener13registerBlock02onbH006inComebH00i8SetAgentH00i8PlaydtmfH0yyAA11RegistStateO_SSSgtcSg_yAA0bP0O_ALtcSgyAA02InK6StatusO_ALtcSgySb_ALtcSgATtF",
+            "moduleName": "DKCloudCallKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "websocketDidConnect",
+            "printedName": "websocketDidConnect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DKCloudCallKit0A7ManagerC19websocketDidConnectyyF",
+            "mangledName": "$s14DKCloudCallKit0A7ManagerC19websocketDidConnectyyF",
+            "moduleName": "DKCloudCallKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "websocketDidDisconnect",
+            "printedName": "websocketDidDisconnect(error:disconnectByUser:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DKCloudCallKit0A7ManagerC22websocketDidDisconnect5error16disconnectByUserySS_SbtF",
+            "mangledName": "$s14DKCloudCallKit0A7ManagerC22websocketDidDisconnect5error16disconnectByUserySS_SbtF",
+            "moduleName": "DKCloudCallKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "websocketDidReceiveMessage",
+            "printedName": "websocketDidReceiveMessage(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DKCloudCallKit0A7ManagerC26websocketDidReceiveMessage7messageySS_tF",
+            "mangledName": "$s14DKCloudCallKit0A7ManagerC26websocketDidReceiveMessage7messageySS_tF",
+            "moduleName": "DKCloudCallKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14DKCloudCallKit0A7ManagerC",
+        "mangledName": "$s14DKCloudCallKit0A7ManagerC",
+        "moduleName": "DKCloudCallKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "DKWebSocketDelegate",
+            "printedName": "DKWebSocketDelegate",
+            "usr": "s:14DKCloudCallKit19DKWebSocketDelegateP",
+            "mangledName": "$s14DKCloudCallKit19DKWebSocketDelegateP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DKCloudCallKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "DKCloudCallKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DKCloudCallKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DKCloudCallKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Starscream",
+        "printedName": "Starscream",
+        "declKind": "Import",
+        "moduleName": "DKCloudCallKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DKWebSocketDelegate",
+        "printedName": "DKWebSocketDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "websocketDidConnect",
+            "printedName": "websocketDidConnect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DKCloudCallKit19DKWebSocketDelegateP19websocketDidConnectyyF",
+            "mangledName": "$s14DKCloudCallKit19DKWebSocketDelegateP19websocketDidConnectyyF",
+            "moduleName": "DKCloudCallKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : DKCloudCallKit.DKWebSocketDelegate>",
+            "sugared_genericSig": "<Self where Self : DKCloudCallKit.DKWebSocketDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "websocketDidDisconnect",
+            "printedName": "websocketDidDisconnect(error:disconnectByUser:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DKCloudCallKit19DKWebSocketDelegateP22websocketDidDisconnect5error16disconnectByUserySS_SbtF",
+            "mangledName": "$s14DKCloudCallKit19DKWebSocketDelegateP22websocketDidDisconnect5error16disconnectByUserySS_SbtF",
+            "moduleName": "DKCloudCallKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : DKCloudCallKit.DKWebSocketDelegate>",
+            "sugared_genericSig": "<Self where Self : DKCloudCallKit.DKWebSocketDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "websocketDidReceiveMessage",
+            "printedName": "websocketDidReceiveMessage(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14DKCloudCallKit19DKWebSocketDelegateP26websocketDidReceiveMessage7messageySS_tF",
+            "mangledName": "$s14DKCloudCallKit19DKWebSocketDelegateP26websocketDidReceiveMessage7messageySS_tF",
+            "moduleName": "DKCloudCallKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : DKCloudCallKit.DKWebSocketDelegate>",
+            "sugared_genericSig": "<Self where Self : DKCloudCallKit.DKWebSocketDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14DKCloudCallKit19DKWebSocketDelegateP",
+        "mangledName": "$s14DKCloudCallKit19DKWebSocketDelegateP",
+        "moduleName": "DKCloudCallKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 241,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 271,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 305,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 332,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 359,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 387,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 417,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 473,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 503,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 533,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 564,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 728,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 758,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 787,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 849,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 870,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 895,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 913,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 931,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 950,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 970,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 994,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1015,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1037,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1059,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1219,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1376,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1405,
+      "length": 7,
+      "value": "\"token\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1441,
+      "length": 11,
+      "value": "\"extension\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1479,
+      "length": 11,
+      "value": "\"projectId\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1512,
+      "length": 6,
+      "value": "\"code\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1543,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1577,
+      "length": 9,
+      "value": "\"agentid\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1610,
+      "length": 8,
+      "value": "\"source\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1645,
+      "length": 11,
+      "value": "\"eventType\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1680,
+      "length": 8,
+      "value": "\"reason\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1710,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1739,
+      "length": 7,
+      "value": "\"queue\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1769,
+      "length": 7,
+      "value": "\"state\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1801,
+      "length": 9,
+      "value": "\"retCode\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1835,
+      "length": 9,
+      "value": "\"eventId\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1880,
+      "length": 20,
+      "value": "\"originate_callTime\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1932,
+      "length": 16,
+      "value": "\"originate_telb\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1980,
+      "length": 16,
+      "value": "\"originate_tela\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2030,
+      "length": 18,
+      "value": "\"originate_option\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2082,
+      "length": 18,
+      "value": "\"connectedLineNum\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2128,
+      "length": 12,
+      "value": "\"callerRole\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2389,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3643,
+      "length": 8,
+      "value": "\"reason\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3677,
+      "length": 10,
+      "value": "\"webrtcip\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3714,
+      "length": 11,
+      "value": "\"pjsipPort\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3750,
+      "length": 9,
+      "value": "\"sipport\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3787,
+      "length": 12,
+      "value": "\"agentState\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3822,
+      "length": 7,
+      "value": "\"state\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3852,
+      "length": 7,
+      "value": "\"realm\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3886,
+      "length": 11,
+      "value": "\"eventType\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3923,
+      "length": 10,
+      "value": "\"linkedid\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3958,
+      "length": 9,
+      "value": "\"callLeg\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3991,
+      "length": 8,
+      "value": "\"option\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4024,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4068,
+      "length": 19,
+      "value": "\"customerTelNumber\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4128,
+      "length": 25,
+      "value": "\"customerDecodeTelNumber\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4185,
+      "length": 16,
+      "value": "\"agentTelNumber\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4234,
+      "length": 17,
+      "value": "\"transferMessage\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4771,
+      "length": 9,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4779,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4947,
+      "length": 9,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4955,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5229,
+      "length": 9,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5237,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5358,
+      "length": 9,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5366,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5476,
+      "length": 8,
+      "value": "\"gw2\/ws\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6521,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6550,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6576,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6663,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6612,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6852,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6875,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7596,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 7649,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 7746,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 8877,
+      "length": 186,
+      "value": "\"wss:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 8890,
+      "length": 1,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 8901,
+      "length": 1,
+      "value": "\"\/sdk?agentId=\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 8924,
+      "length": 1,
+      "value": "\"&extension=\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 8949,
+      "length": 1,
+      "value": "\"&initialstate=\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 8977,
+      "length": 1,
+      "value": "\"&projectId=\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9000,
+      "length": 1,
+      "value": "\"&token=\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9015,
+      "length": 1,
+      "value": "\"&queue=&extensionType=\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9054,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9058,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9062,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9279,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10256,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10538,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "Dictionary",
+      "offset": 10784,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 10801,
+      "length": 11,
+      "value": "\"eventType\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 10816,
+      "length": 13,
+      "value": "\"AgentLogout\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 10843,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 10853,
+      "length": 13,
+      "value": "\"agentlogout\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 10880,
+      "length": 9,
+      "value": "\"agentid\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "Dictionary",
+      "offset": 11314,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 11331,
+      "length": 11,
+      "value": "\"eventType\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 11346,
+      "length": 16,
+      "value": "\"AgentInterface\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 11376,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 11386,
+      "length": 11,
+      "value": "\"placecall\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 11411,
+      "length": 9,
+      "value": "\"agentId\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 11457,
+      "length": 11,
+      "value": "\"callednum\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 11523,
+      "length": 11,
+      "value": "\"userfield\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 11599,
+      "length": 5,
+      "value": "\"tag\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 11670,
+      "length": 12,
+      "value": "\"mobileTelx\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 11754,
+      "length": 11,
+      "value": "\"fixedTelx\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 11843,
+      "length": 18,
+      "value": "\"trunkNumberGroup\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 11942,
+      "length": 14,
+      "value": "\"callStrategy\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12006,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "Dictionary",
+      "offset": 12389,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12406,
+      "length": 11,
+      "value": "\"eventType\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12421,
+      "length": 16,
+      "value": "\"AgentInterface\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12451,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12461,
+      "length": 8,
+      "value": "\"hangup\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12483,
+      "length": 9,
+      "value": "\"agentId\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12903,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14179,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14211,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "Dictionary",
+      "offset": 14350,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14367,
+      "length": 11,
+      "value": "\"eventType\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14382,
+      "length": 16,
+      "value": "\"AgentInterface\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14412,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14422,
+      "length": 13,
+      "value": "\"musiconhold\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14455,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14478,
+      "length": 6,
+      "value": "\"mode\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14488,
+      "length": 6,
+      "value": "\"hold\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14527,
+      "length": 6,
+      "value": "\"mode\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14537,
+      "length": 8,
+      "value": "\"unhold\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14569,
+      "length": 9,
+      "value": "\"agentId\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "Dictionary",
+      "offset": 14907,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14924,
+      "length": 11,
+      "value": "\"eventType\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14939,
+      "length": 16,
+      "value": "\"AgentInterface\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14969,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14979,
+      "length": 6,
+      "value": "\"mute\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14999,
+      "length": 9,
+      "value": "\"agentId\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15051,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 15074,
+      "length": 6,
+      "value": "\"mode\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 15084,
+      "length": 6,
+      "value": "\"mute\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 15123,
+      "length": 6,
+      "value": "\"mode\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 15133,
+      "length": 8,
+      "value": "\"unmute\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "Dictionary",
+      "offset": 15415,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 15432,
+      "length": 11,
+      "value": "\"eventType\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 15447,
+      "length": 16,
+      "value": "\"AgentInterface\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 15477,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 15487,
+      "length": 14,
+      "value": "\"servicelevel\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 15515,
+      "length": 9,
+      "value": "\"agentId\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15784,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "Dictionary",
+      "offset": 15821,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 15838,
+      "length": 11,
+      "value": "\"eventType\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 15853,
+      "length": 16,
+      "value": "\"AgentInterface\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 15883,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 15893,
+      "length": 10,
+      "value": "\"playdtmf\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 15917,
+      "length": 9,
+      "value": "\"agentId\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 15951,
+      "length": 7,
+      "value": "\"digit\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 15981,
+      "length": 11,
+      "value": "\"agentType\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "Dictionary",
+      "offset": 16278,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 16295,
+      "length": 11,
+      "value": "\"eventType\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 16310,
+      "length": 16,
+      "value": "\"AgentInterface\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 16340,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 16350,
+      "length": 15,
+      "value": "\"agentsetstate\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 16379,
+      "length": 9,
+      "value": "\"agentId\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 16425,
+      "length": 7,
+      "value": "\"state\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 16486,
+      "length": 8,
+      "value": "\"reason\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16776,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "Dictionary",
+      "offset": 16867,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 16884,
+      "length": 11,
+      "value": "\"eventType\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 16899,
+      "length": 16,
+      "value": "\"AgentInterface\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 16929,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 16939,
+      "length": 10,
+      "value": "\"blindfer\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 16963,
+      "length": 9,
+      "value": "\"agentId\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 17009,
+      "length": 16,
+      "value": "\"transferNumber\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 17057,
+      "length": 6,
+      "value": "\"mode\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 17119,
+      "length": 11,
+      "value": "\"ivrNodeId\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 17203,
+      "length": 13,
+      "value": "\"ivrNodeType\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17466,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "Dictionary",
+      "offset": 17503,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 17520,
+      "length": 11,
+      "value": "\"eventType\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 17535,
+      "length": 16,
+      "value": "\"AgentInterface\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 17565,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 17575,
+      "length": 8,
+      "value": "\"atxfer\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 17597,
+      "length": 9,
+      "value": "\"agentId\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 17643,
+      "length": 14,
+      "value": "\"atxferNumber\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 17687,
+      "length": 6,
+      "value": "\"mode\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "Dictionary",
+      "offset": 17940,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 17957,
+      "length": 11,
+      "value": "\"eventType\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 17972,
+      "length": 16,
+      "value": "\"AgentInterface\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 18002,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 18012,
+      "length": 14,
+      "value": "\"atxferHangup\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 18040,
+      "length": 9,
+      "value": "\"agentId\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18299,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "Dictionary",
+      "offset": 18336,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 18353,
+      "length": 11,
+      "value": "\"eventType\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 18368,
+      "length": 16,
+      "value": "\"AgentInterface\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 18398,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 18408,
+      "length": 6,
+      "value": "\"meet\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 18428,
+      "length": 9,
+      "value": "\"agentId\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 18474,
+      "length": 12,
+      "value": "\"meetNumber\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 18514,
+      "length": 6,
+      "value": "\"mode\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18733,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "Dictionary",
+      "offset": 18804,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 18821,
+      "length": 11,
+      "value": "\"eventType\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 18836,
+      "length": 16,
+      "value": "\"AgentInterface\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 18866,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 18876,
+      "length": 9,
+      "value": "\"chanspy\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 18899,
+      "length": 9,
+      "value": "\"agentId\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 18945,
+      "length": 7,
+      "value": "\"point\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 18975,
+      "length": 15,
+      "value": "\"monitorNumber\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 19021,
+      "length": 6,
+      "value": "\"mode\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20635,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 20862,
+      "length": 11,
+      "value": "\"Heartbeat\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 21094,
+      "length": 52,
+      "value": "\"message = \""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 21115,
+      "length": 4,
+      "value": "\" ---- eventType = \""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 21145,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 21316,
+      "length": 5,
+      "value": "\"200\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 21774,
+      "length": 3,
+      "value": "\":\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 22086,
+      "length": 5,
+      "value": "\"490\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 22233,
+      "length": 5,
+      "value": "\"401\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 22266,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 22279,
+      "length": 11,
+      "value": "\"被挤掉\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 22440,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 22590,
+      "length": 5,
+      "value": "\"200\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 22644,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 22696,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 22773,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 22989,
+      "length": 5,
+      "value": "\"200\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23070,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23250,
+      "length": 5,
+      "value": "\"out\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23305,
+      "length": 7,
+      "value": "\"agent\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23414,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23526,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23580,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23986,
+      "length": 5,
+      "value": "\"out\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 24327,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 24408,
+      "length": 9,
+      "value": "\"1321312\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 24614,
+      "length": 5,
+      "value": "\"200\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 24859,
+      "length": 5,
+      "value": "\"out\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 24911,
+      "length": 10,
+      "value": "\"customer\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 24974,
+      "length": 5,
+      "value": "\"200\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 25295,
+      "length": 5,
+      "value": "\"200\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 25468,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 25647,
+      "length": 14,
+      "value": "\"atxferHangup\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 25699,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 25740,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 25789,
+      "length": 5,
+      "value": "\"200\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 26019,
+      "length": 13,
+      "value": "\"agentlogout\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 26077,
+      "length": 5,
+      "value": "\"200\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 26261,
+      "length": 15,
+      "value": "\"agentsetstate\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 26321,
+      "length": 5,
+      "value": "\"200\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 26370,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 26465,
+      "length": 10,
+      "value": "\"blindfer\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 26499,
+      "length": 8,
+      "value": "\"atxfer\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 26552,
+      "length": 5,
+      "value": "\"200\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 26780,
+      "length": 6,
+      "value": "\"mute\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 26831,
+      "length": 5,
+      "value": "\"200\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 26875,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 26949,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 27044,
+      "length": 11,
+      "value": "\"placecall\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 27100,
+      "length": 5,
+      "value": "\"200\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 27225,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 27364,
+      "length": 8,
+      "value": "\"hangup\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 27409,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 27450,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 27545,
+      "length": 5,
+      "value": "\"200\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 27633,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 27683,
+      "length": 10,
+      "value": "\"playdtmf\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 27739,
+      "length": 5,
+      "value": "\"200\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 27788,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 27866,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 28027,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 28064,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 28107,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 28274,
+      "length": 7,
+      "value": "\"agent\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 28448,
+      "length": 5,
+      "value": "\"200\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 28544,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 28648,
+      "length": 16,
+      "value": "\"DialStateEvent\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 28717,
+      "length": 13,
+      "value": "\"AGENT_STATE\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 28771,
+      "length": 5,
+      "value": "\"200\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 28837,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 28909,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 29053,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 29090,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 29135,
+      "length": 5,
+      "value": "\"200\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 29191,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 29488,
+      "length": 5,
+      "value": "\"200\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29685,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29791,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 30143,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 30182,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 30193,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 30205,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 30361,
+      "length": 6,
+      "value": "\"sip:\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 30396,
+      "length": 3,
+      "value": "\"@\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 30561,
+      "length": 6,
+      "value": "\"sip:\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 30766,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 30936,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 30979,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 31286,
+      "length": 12,
+      "value": "\"AgentState\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 31319,
+      "length": 10,
+      "value": "\"MakeCall\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 31348,
+      "length": 8,
+      "value": "\"HANGUP\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 31377,
+      "length": 10,
+      "value": "\"PlayDtmf\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 31411,
+      "length": 13,
+      "value": "\"MusicOnHold\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 31446,
+      "length": 11,
+      "value": "\"Heartbeat\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 31480,
+      "length": 12,
+      "value": "\"AgentLogin\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 31516,
+      "length": 13,
+      "value": "\"AgentLogout\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 31556,
+      "length": 16,
+      "value": "\"AgentInterface\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 31603,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 31636,
+      "length": 16,
+      "value": "\"DialStateEvent\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 31673,
+      "length": 10,
+      "value": "\"ANSWERED\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 31703,
+      "length": 9,
+      "value": "\"RINGING\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 31744,
+      "length": 23,
+      "value": "\"AGENT_CALL_STATISTICS\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 31790,
+      "length": 12,
+      "value": "\"UNREGISTER\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 31823,
+      "length": 10,
+      "value": "\"TRANSFER\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 31286,
+      "length": 12,
+      "value": "\"AgentState\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 31319,
+      "length": 10,
+      "value": "\"MakeCall\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 31348,
+      "length": 8,
+      "value": "\"HANGUP\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 31377,
+      "length": 10,
+      "value": "\"PlayDtmf\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 31411,
+      "length": 13,
+      "value": "\"MusicOnHold\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 31446,
+      "length": 11,
+      "value": "\"Heartbeat\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 31480,
+      "length": 12,
+      "value": "\"AgentLogin\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 31516,
+      "length": 13,
+      "value": "\"AgentLogout\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 31556,
+      "length": 16,
+      "value": "\"AgentInterface\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 31603,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 31636,
+      "length": 16,
+      "value": "\"DialStateEvent\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 31673,
+      "length": 10,
+      "value": "\"ANSWERED\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 31703,
+      "length": 9,
+      "value": "\"RINGING\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 31744,
+      "length": 23,
+      "value": "\"AGENT_CALL_STATISTICS\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 31790,
+      "length": 12,
+      "value": "\"UNREGISTER\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/DKCloudManager.swift",
+      "kind": "StringLiteral",
+      "offset": 31823,
+      "length": 10,
+      "value": "\"TRANSFER\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/NetworkMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 523,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/NetworkMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 824,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/TransformUtils.swift",
+      "kind": "Array",
+      "offset": 287,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/TransformUtils.swift",
+      "kind": "Array",
+      "offset": 1035,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 642,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 692,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 736,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 779,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 872,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 929,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1060,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1288,
+      "length": 17,
+      "value": "\"链接已断开\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1325,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1415,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1477,
+      "length": 17,
+      "value": "\"socket已退出\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1514,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 816,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1638,
+      "length": 17,
+      "value": "\"com.queue.timer\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1696,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1727,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1914,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1965,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2094,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2380,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2412,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2590,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2879,
+      "length": 32,
+      "value": "\"websocket encountered an error\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2931,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3050,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3127,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4589,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4626,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4723,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4789,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4981,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5103,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5297,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5616,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5750,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5826,
+      "length": 32,
+      "value": "\"websocket encountered an error\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5877,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 6054,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 6404,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6456,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "Dictionary",
+      "offset": 6742,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6759,
+      "length": 11,
+      "value": "\"eventType\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/DKCloudCallKit\/DKCloudCallKit\/WebSocketManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6774,
+      "length": 11,
+      "value": "\"Heartbeat\""
+    }
+  ]
+}

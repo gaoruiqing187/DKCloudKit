@@ -1,0 +1,6 @@
+framework module DKCloudKit {
+  umbrella header "DKCloudKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
